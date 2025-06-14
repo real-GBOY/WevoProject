@@ -38,9 +38,12 @@ const CallToAction = () => {
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
 					className='max-w-4xl mx-auto'>
-					<div className='inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full mb-6'>
+					<motion.div
+						whileHover={{ scale: 1.1 }}
+						transition={{ type: "spring", stiffness: 400, damping: 10 }}
+						className='hidden md:inline-flex items-center justify-center w-16 h-16 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full mb-6 transition-colors duration-300'>
 						<Heart className='h-8 w-8 text-white' />
-					</div>
+					</motion.div>
 
 					<h2 className='text-3xl md:text-5xl font-bold text-white mb-6 leading-tight'>
 						Ready to Join the
@@ -78,15 +81,15 @@ const CallToAction = () => {
 
 				{/* Floating Elements */}
 				<div
-					className='absolute top-10 left-10 w-20 h-20 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
+					className='hidden lg:block absolute top-10 left-10 w-20 h-20 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
 					style={{ animationDelay: "0s" }}
 				/>
 				<div
-					className='absolute bottom-10 right-10 w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
+					className='hidden lg:block absolute bottom-10 right-10 w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
 					style={{ animationDelay: "1s" }}
 				/>
 				<div
-					className='absolute top-1/2 left-1/4 w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
+					className='hidden lg:block absolute top-1/2 left-1/4 w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full animate-bounce'
 					style={{ animationDelay: "2s" }}
 				/>
 			</div>
