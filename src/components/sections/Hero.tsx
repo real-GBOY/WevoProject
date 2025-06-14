@@ -7,13 +7,19 @@ import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
 	return (
-		<section className='relative min-h-screen flex items-center justify-center overflow-hidden'>
+		<section className='relative min-h-screen flex items-center justify-center overflow-hidden att'>
 			{/* Background Image with Gradient Overlay */}
 			<div className='absolute inset-0 z-0'>
-				<img
-					src='https://images.pexels.com/photos/9324593/pexels-photo-9324593.jpeg?auto=compress&cs=tinysrgb&w=1920'
-					alt='Textile recycling background'
-					className='w-full h-full object-cover'
+				<div
+					className='w-full h-full'
+					style={{
+						backgroundImage:
+							'url("https://images.pexels.com/photos/9324593/pexels-photo-9324593.jpeg?auto=compress&cs=tinysrgb&w=1920")',
+						backgroundSize: "cover",
+						backgroundPosition: "center",
+						backgroundRepeat: "no-repeat",
+						backgroundAttachment: "fixed",
+					}}
 				/>
 				<div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-emerald-900/50'></div>
 			</div>
