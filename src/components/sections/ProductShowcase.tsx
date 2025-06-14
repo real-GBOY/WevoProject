@@ -13,7 +13,7 @@ const ProductShowcase = () => {
 			description:
 				"High-quality filament made from recycled textile fibers, perfect for 3D printing projects.",
 			image:
-				"https://images.pexels.com/photos/3846332/pexels-photo-3846332.jpeg?auto=compress&cs=tinysrgb&w=800",
+				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
 			color: "from-blue-500 to-cyan-500",
 		},
 		{
@@ -22,7 +22,7 @@ const ProductShowcase = () => {
 			description:
 				"Soft, durable yarn crafted from upcycled textiles for sustainable fashion and crafts.",
 			image:
-				"https://images.pexels.com/photos/7796687/pexels-photo-7796687.jpeg?auto=compress&cs=tinysrgb&w=800",
+				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
 			color: "from-green-500 to-emerald-500",
 		},
 		{
@@ -31,7 +31,7 @@ const ProductShowcase = () => {
 			description:
 				"Eco-friendly medium-density fiberboard made from compressed textile waste.",
 			image:
-				"https://images.pexels.com/photos/5974056/pexels-photo-5974056.jpeg?auto=compress&cs=tinysrgb&w=800",
+				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
 			color: "from-amber-500 to-orange-500",
 		},
 		{
@@ -40,7 +40,7 @@ const ProductShowcase = () => {
 			description:
 				"Beautiful, sustainable furniture pieces created from our recycled materials.",
 			image:
-				"https://images.pexels.com/photos/6480214/pexels-photo-6480214.jpeg?auto=compress&cs=tinysrgb&w=800",
+				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
 			color: "from-purple-500 to-pink-500",
 		},
 	];

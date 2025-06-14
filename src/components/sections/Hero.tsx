@@ -14,7 +14,7 @@ const Hero = () => {
 					className='w-full h-full'
 					style={{
 						backgroundImage:
-							'url("https://images.pexels.com/photos/9324593/pexels-photo-9324593.jpeg?auto=compress&cs=tinysrgb&w=1920")',
+							'url("https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg")',
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
