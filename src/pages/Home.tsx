@@ -45,7 +45,7 @@ const Home = () => {
 			<Hero />
 			{/* Impact section */}
 			<ImpactSection />
-		<FeaturesSection/>
+			<FeaturesSection />
 			<ProductShowcase />
 			<ImpactStats />
 			<CallToAction />
