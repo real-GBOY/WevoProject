@@ -10,143 +10,166 @@ const ProductDetail = () => {
 
 	const products = {
 		"3d-filament": {
-			title: "3D Printing Filament",
+			title: " 3D Printing Filament – Impact Overview",
 			description:
-				"Premium quality 3D printing filament made from 100% recycled textile fibers. Our innovative process transforms discarded textiles into high-performance filament that delivers exceptional print quality while supporting environmental sustainability.",
+				"Our filament is made by transforming textile waste into high-quality 3D printing spools. Compatible with FDM printers (PLA, PET, ABS), our filament offers strong, glossy, and flexible material — reducing both waste and plastic pollution.",
 			image:
 				"https://images.pexels.com/photos/3846332/pexels-photo-3846332.jpeg?auto=compress&cs=tinysrgb&w=1200",
-			price: "Starting at $25/kg",
+			price: "Contact for pricing",
 			features: [
-				"Made from 100% recycled textile fibers",
-				"Compatible with most FDM 3D printers",
-				"Available in 15+ colors",
-				"Biodegradable and eco-friendly",
-				"Consistent diameter tolerance (±0.02mm)",
-				"Excellent layer adhesion",
-				"Low warping and shrinkage",
-				"Food-safe certified options available",
-			],
-			specifications: [
-				{ label: "Material", value: "Recycled PLA/Textile Composite" },
-				{ label: "Diameter", value: "1.75mm / 2.85mm" },
-				{ label: "Print Temperature", value: "190-210°C" },
-				{ label: "Bed Temperature", value: "50-60°C" },
-				{ label: "Storage", value: "Cool, dry place" },
-				{ label: "Shelf Life", value: "2 years unopened" },
-			],
-			applications: [
-				"Prototyping and product development",
-				"Educational projects",
-				"Art and creative applications",
-				"Sustainable manufacturing",
-				"Custom tooling and fixtures",
-			],
-		},
-		"recycled-yarn": {
-			title: "Recycled Yarn",
-			description:
-				"High-quality yarn produced from carefully selected and processed textile waste. Our advanced recycling technology maintains fiber integrity while creating versatile yarn suitable for various textile applications.",
-			image:
-				"https://images.pexels.com/photos/7796687/pexels-photo-7796687.jpeg?auto=compress&cs=tinysrgb&w=1200",
-			price: "Starting at $15/kg",
-			features: [
-				"Premium recycled cotton and polyester blend",
-				"Multiple weights available (DK, Worsted, Chunky)",
-				"Chemical-free processing",
-				"Consistent twist and tension",
-				"Excellent color retention",
-				"Soft hand feel",
-				"Suitable for machine and hand knitting",
-				"Certified by Global Recycled Standard (GRS)",
+				"High flexibility",
+				"Enhanced glossy finish",
+				"Strong mechanical bearing",
+				"Fully compatible with PLA, PET, ABS printers",
+				"90% conversion rate from textile waste to filament",
+				"720 rolls produced annually",
+				"15 direct jobs created",
 			],
 			specifications: [
 				{
-					label: "Composition",
-					value: "60% Recycled Cotton, 40% Recycled Polyester",
+					label: "Conversion Rate",
+					value: "90% from textile waste to filament",
 				},
-				{ label: "Weight Range", value: "50g - 500g skeins" },
-				{ label: "Yarn Weight", value: "DK (3), Worsted (4), Chunky (5)" },
-				{ label: "Twist", value: "Medium twist, balanced" },
-				{ label: "Care", value: "Machine wash cold, tumble dry low" },
-				{ label: "Color Fastness", value: "Grade 4-5" },
+				{ label: "Filament Rolls Produced Annually", value: "720 rolls" },
+				{ label: "Jobs Created", value: "15 direct jobs" },
+				{ label: "Trained Individuals", value: "30 people trained" },
 			],
 			applications: [
-				"Sustainable fashion production",
-				"Home textiles and accessories",
-				"Handicrafts and DIY projects",
-				"Educational institutions",
-				"Eco-conscious retail brands",
+				"Educational Institutions",
+				"Design Studios",
+				"Makerspaces & Innovation Labs",
+				"50+ partners across Egypt",
+				"Schools, labs, and studios",
+			],
+		},
+		"recycled-yarn": {
+			title: " Recycled Yarn – Impact Overview",
+			description:
+				"Our yarn is produced by upcycling discarded textiles into high-quality yarn rolls used by artisans, sewing businesses, and knitting groups — promoting sustainability while supporting local economies.",
+			image:
+				"https://images.pexels.com/photos/7796687/pexels-photo-7796687.jpeg?auto=compress&cs=tinysrgb&w=1200",
+			price: "Contact for pricing",
+			features: [
+				"Affordable and sustainable",
+				"Strong, consistent quality",
+				"Perfect for weaving, knitting, and tailoring applications",
+				"Ideal for social enterprises and local artisans",
+				"70,000 kg textile waste recycled annually",
+				"0.85 kg yarn per kg of fabric efficiency",
+				"7,500 yarn rolls produced annually",
+				"35 jobs created per spinning facility",
+			],
+			specifications: [
+				{ label: "Textile Waste Recycled", value: "70,000 kg (70 tons)" },
+				{
+					label: "Yarn Output Efficiency",
+					value: "0.85 kg yarn per kg of fabric",
+				},
+				{ label: "Yarn Rolls Produced Annually", value: "7,500 units" },
+				{ label: "Jobs Created", value: "35 jobs per spinning facility" },
+				{
+					label: "Trained Individuals",
+					value: "50 people trained in yarn processing",
+				},
+				{
+					label: "Businesses Engaged",
+					value: "120 tailoring/sewing businesses",
+				},
+				{ label: "Monthly Demand", value: "300–500 kg across artisan groups" },
+			],
+			applications: [
+				"Tailoring centers",
+				"Sewing businesses",
+				"Handcraft cooperatives",
+				"Artisan and women-led initiatives",
+				"Local craft communities",
 			],
 		},
 		"mdf-boards": {
-			title: "MDF Boards",
+			title: " Recycled MDF Boards – Impact Overview",
 			description:
-				"Innovative medium-density fiberboard manufactured from compressed textile waste. Our MDF boards offer superior strength and stability while providing an eco-friendly alternative to traditional wood-based products.",
+				"Our MDF boards are created by converting textile waste into durable, high-quality Medium Density Fiberboard (MDF). These boards are perfect for furniture and construction, offering a sustainable alternative to traditional wood-based products.",
 			image:
 				"https://images.pexels.com/photos/5974056/pexels-photo-5974056.jpeg?auto=compress&cs=tinysrgb&w=1200",
-			price: "Starting at $30/m²",
+			price: "Contact for pricing",
 			features: [
-				"Made from 100% recycled textile fibers",
-				"Superior strength and dimensional stability",
-				"Moisture resistant coating available",
-				"Easy to cut, drill, and shape",
-				"Consistent density throughout",
-				"Low formaldehyde emissions",
-				"Fire retardant options available",
-				"Custom sizes and thicknesses",
+				"Strong, reliable structural performance",
+				"Moisture-resistant and smooth finish",
+				"Easy to cut, shape, and paint",
+				"Ideal for eco-conscious furniture production",
+				"95% conversion efficiency from textile waste to MDF",
+				"2,500 MDF boards produced annually",
+				"5,000 kg textile waste recycled annually",
+				"25 jobs created in MDF production",
 			],
 			specifications: [
-				{ label: "Density", value: "720-750 kg/m³" },
-				{ label: "Thickness Range", value: "6mm - 30mm" },
-				{ label: "Standard Sizes", value: "1220x2440mm, 1525x3050mm" },
-				{ label: "Moisture Content", value: "6-8%" },
-				{ label: "Bending Strength", value: "≥22 MPa" },
-				{ label: "Screw Holding", value: "≥800 N" },
+				{
+					label: "Conversion Efficiency",
+					value: "95% from textile waste to MDF",
+				},
+				{ label: "MDF Units Produced Annually", value: "2,500 boards" },
+				{ label: "Textile Waste Recycled", value: "5,000 kg (5 tons)" },
+				{ label: "Jobs Created", value: "25 jobs in MDF production" },
+				{
+					label: "Trained Individuals",
+					value: "120 carpenters and furniture makers trained",
+				},
+				{
+					label: "Workshops Using MDF",
+					value: "15 workshops using our recycled MDF",
+				},
+				{
+					label: "Manufacturer Buyers",
+					value: "70 furniture manufacturers as active buyers",
+				},
 			],
 			applications: [
-				"Furniture manufacturing",
-				"Interior construction",
-				"Shelving and storage solutions",
-				"Decorative panels",
-				"Exhibition stands",
+				"Furniture manufacturers",
+				"Local carpenters and technicians",
+				"Interior designers and green architects",
+				"Workshops, vocational schools, and cooperatives",
 				"Sustainable building projects",
 			],
 		},
 		"eco-furniture": {
-			title: "Eco Furniture",
+			title: "Eco-Friendly Furniture – Impact Overview",
 			description:
-				"Beautifully crafted furniture pieces made entirely from our recycled materials. Each piece combines modern design with environmental responsibility, creating unique furniture that tells a story of sustainability.",
+				"Our eco furniture is made by transforming textile waste into durable and stylish furniture items like chairs, tables, and shelves. This sustainable innovation supports circular design, reduces landfill waste, and empowers local artisans.",
 			image:
 				"https://images.pexels.com/photos/6480214/pexels-photo-6480214.jpeg?auto=compress&cs=tinysrgb&w=1200",
-			price: "Custom pricing",
+			price: "Contact for pricing",
 			features: [
-				"Handcrafted from recycled materials",
-				"Modern and timeless designs",
-				"Custom sizing and finishes",
-				"Durable construction",
-				"Zero waste production process",
-				"Local artisan craftsmanship",
-				"Modular design options",
-				"Lifetime sustainability guarantee",
+				"Moisture-resistant and long-lasting",
+				"Smooth finishing and modern designs",
+				"Easy to transport and assemble",
+				"Made from fully recycled, non-toxic materials",
+				"91% conversion efficiency from textile waste to usable furniture materials",
+				"320 furniture pieces produced annually",
+				"2,560 kg textile waste recycled annually",
+				"45 jobs created in furniture production",
 			],
 			specifications: [
-				{ label: "Materials", value: "Recycled MDF, Textile Composites" },
-				{ label: "Finishes", value: "Natural oils, water-based lacquers" },
-				{ label: "Assembly", value: "Easy assembly with included hardware" },
-				{ label: "Warranty", value: "5 years structural, 2 years finish" },
 				{
-					label: "Care",
-					value: "Clean with damp cloth, avoid harsh chemicals",
+					label: "Conversion Efficiency",
+					value: "91% from textile waste to usable furniture materials",
 				},
-				{ label: "Lead Time", value: "4-6 weeks for custom orders" },
+				{ label: "Furniture Units Produced Annually", value: "320 pieces" },
+				{ label: "Textile Waste Recycled", value: "2,560 kg (2.56 tons)" },
+				{ label: "Jobs Created", value: "45 jobs in furniture production" },
+				{
+					label: "Trained Designers",
+					value: "50 trained furniture designers and technicians",
+				},
+				{ label: "Local Carpenters", value: "35 local carpenters involved" },
+				{ label: "Monthly Production Capacity", value: "250 units" },
 			],
 			applications: [
-				"Residential furniture",
-				"Office environments",
-				"Hotels and hospitality",
-				"Educational institutions",
-				"Retail spaces",
-				"Sustainable architecture projects",
+				"Families looking for affordable, sustainable options",
+				"Offices seeking green interior solutions",
+				"Students in need of functional furniture",
+				"Workshops and green brands looking to collaborate",
+				"Sustainable living spaces",
+				"Green building projects",
 			],
 		},
 	};
@@ -341,19 +364,459 @@ const ProductDetail = () => {
 								))}
 							</div>
 
-							<div className='mt-8 bg-emerald-purple-50 rounded-xl p-6'>
-								<h4 className='font-semibold text-emerald-purple-800 mb-2'>
-									Environmental Impact
-								</h4>
-								<p className='text-emerald-purple-700 text-sm'>
-									By choosing this product, you're helping divert textile waste
-									from landfills and supporting Egypt's circular economy. Each
-									kilogram of our recycled material prevents approximately 2.5kg
-									of textile waste from polluting the environment.
-								</p>
-							</div>
+							{id === "3d-filament" && (
+								<div className='mt-8 bg-green-50 rounded-xl p-6'>
+									<h4 className='font-semibold text-green-800 mb-4'>
+										🌱 Environmental Impact
+									</h4>
+									<div className='space-y-3 text-sm text-green-700'>
+										<div className='flex items-center space-x-2'>
+											<span>♻️</span>
+											<span>
+												<strong>Textile Waste Recycled:</strong> ~800 kg (for
+												720 rolls)
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🛑</span>
+											<span>
+												<strong>Plastic Avoided:</strong> 3,000 kg of
+												traditional filament plastic replaced
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌍</span>
+											<span>
+												<strong>CO₂ Emissions Reduced:</strong> ~4 tons (based
+												on textile waste conversion)
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🔁</span>
+											<span>
+												<strong>Supports Circular Economy:</strong> Converts
+												non-recyclable fabric into usable, durable material
+											</span>
+										</div>
+									</div>
+								</div>
+							)}
+							{id === "recycled-yarn" && (
+								<div className='mt-8 bg-green-50 rounded-xl p-6'>
+									<h4 className='font-semibold text-green-800 mb-4'>
+										🌱 Environmental Impact
+									</h4>
+									<div className='space-y-3 text-sm text-green-700'>
+										<div className='flex items-center space-x-2'>
+											<span>♻️</span>
+											<span>
+												<strong>70 tons of textile waste</strong> diverted from
+												landfills
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌍</span>
+											<span>
+												<strong>Significant CO₂ emission reductions</strong> (up
+												to 350 tons saved)
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🧵</span>
+											<span>
+												<strong>Supports reuse</strong> over fast fashion waste
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌾</span>
+											<span>
+												<strong>Promotes local, eco-friendly</strong> craft
+												alternatives
+											</span>
+										</div>
+									</div>
+								</div>
+							)}
+							{id === "mdf-boards" && (
+								<div className='mt-8 bg-green-50 rounded-xl p-6'>
+									<h4 className='font-semibold text-green-800 mb-4'>
+										🌱 Environmental Impact
+									</h4>
+									<div className='space-y-3 text-sm text-green-700'>
+										<div className='flex items-center space-x-2'>
+											<span>♻️</span>
+											<span>
+												<strong>5 tons of textile waste</strong> upcycled into
+												usable boards
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌍</span>
+											<span>
+												<strong>25 tons of CO₂ emissions avoided</strong> (5
+												tons waste × 5 tons CO₂ saved/ton)
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌳</span>
+											<span>
+												<strong>Reduces deforestation</strong> by replacing
+												wood-based MDF
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>💧</span>
+											<span>
+												<strong>Minimizes water and chemical use</strong>{" "}
+												typical in standard board production
+											</span>
+										</div>
+									</div>
+								</div>
+							)}
+							{id === "eco-furniture" && (
+								<div className='mt-8 bg-green-50 rounded-xl p-6'>
+									<h4 className='font-semibold text-green-800 mb-4'>
+										🌱 Environmental Impact
+									</h4>
+									<div className='space-y-3 text-sm text-green-700'>
+										<div className='flex items-center space-x-2'>
+											<span>♻️</span>
+											<span>
+												<strong>2.56 tons of textile waste</strong> upcycled
+												into functional furniture
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌍</span>
+											<span>
+												<strong>1,440 kg of CO₂ emissions reduced</strong> (320
+												units × 4.5 kg CO₂ saved per unit)
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>🌿</span>
+											<span>
+												<strong>Helps reduce pressure</strong> on wood and
+												plastic furniture production
+											</span>
+										</div>
+										<div className='flex items-center space-x-2'>
+											<span>💧</span>
+											<span>
+												<strong>Cleaner processing</strong> with less chemical
+												and water usage
+											</span>
+										</div>
+									</div>
+								</div>
+							)}
+							{id !== "3d-filament" &&
+								id !== "recycled-yarn" &&
+								id !== "mdf-boards" &&
+								id !== "eco-furniture" && (
+									<div className='mt-8 bg-emerald-purple-50 rounded-xl p-6'>
+										<h4 className='font-semibold text-emerald-purple-800 mb-2'>
+											Environmental Impact
+										</h4>
+										<p className='text-emerald-purple-700 text-sm'>
+											By choosing this product, you're helping divert textile
+											waste from landfills and supporting Egypt's circular
+											economy. Each kilogram of our recycled material prevents
+											approximately 2.5kg of textile waste from polluting the
+											environment.
+										</p>
+									</div>
+								)}
 						</div>
 					</motion.div>
+
+					{/* Special MDF Boards Impact Section */}
+					{id === "mdf-boards" && (
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className='mt-16 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8'>
+							<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										👥 Social Impact
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🛠️</span>
+											<span className='text-gray-700'>
+												<strong>25 jobs created</strong> in MDF production
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🎓</span>
+											<span className='text-gray-700'>
+												<strong>120 carpenters and furniture makers</strong>{" "}
+												trained
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🏭</span>
+											<span className='text-gray-700'>
+												<strong>15 workshops</strong> using our recycled MDF
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🤝</span>
+											<span className='text-gray-700'>
+												<strong>70 furniture manufacturers</strong> as active
+												buyers
+											</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										🎯 Target Market
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🛋️</span>
+											<span className='text-gray-700'>
+												Furniture manufacturers
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🧰</span>
+											<span className='text-gray-700'>
+												Local carpenters and technicians
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🏠</span>
+											<span className='text-gray-700'>
+												Interior designers and green architects
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🏫</span>
+											<span className='text-gray-700'>
+												Workshops, vocational schools, and cooperatives
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</motion.div>
+					)}
+
+					{/* Special Eco Furniture Impact Section */}
+					{id === "eco-furniture" && (
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className='mt-16 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8'>
+							<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										👥 Social Impact
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🛠️</span>
+											<span className='text-gray-700'>
+												<strong>45 jobs created</strong> in furniture production
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🎓</span>
+											<span className='text-gray-700'>
+												<strong>50 trained furniture designers</strong> and
+												technicians
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🧰</span>
+											<span className='text-gray-700'>
+												<strong>35 local carpenters</strong> involved
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>👨‍👩‍👧‍👦</span>
+											<span className='text-gray-700'>
+												<strong>Targeting impact</strong> for students,
+												families, and offices
+											</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										🎯 Target Market
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🏠</span>
+											<span className='text-gray-700'>
+												Families looking for affordable, sustainable options
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🏢</span>
+											<span className='text-gray-700'>
+												Offices seeking green interior solutions
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🎓</span>
+											<span className='text-gray-700'>
+												Students in need of functional furniture
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🪚</span>
+											<span className='text-gray-700'>
+												Workshops and green brands looking to collaborate
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</motion.div>
+					)}
+
+					{/* Special Recycled Yarn Impact Section */}
+					{id === "recycled-yarn" && (
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className='mt-16 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8'>
+							<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										👥 Social Impact
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>👷</span>
+											<span className='text-gray-700'>
+												<strong>35 jobs created</strong> per spinning facility
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🎓</span>
+											<span className='text-gray-700'>
+												<strong>50 individuals trained</strong> in yarn
+												processing
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🤝</span>
+											<span className='text-gray-700'>
+												<strong>120 tailoring/sewing businesses</strong> engaged
+												as buyers
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>📦</span>
+											<span className='text-gray-700'>
+												<strong>300–500 kg/month</strong> demand across artisan
+												groups
+											</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										🎯 Target Market
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>👗</span>
+											<span className='text-gray-700'>Tailoring centers</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🧵</span>
+											<span className='text-gray-700'>Sewing businesses</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🤲</span>
+											<span className='text-gray-700'>
+												Handcraft cooperatives
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>👩‍🎨</span>
+											<span className='text-gray-700'>
+												Artisan and women-led initiatives
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</motion.div>
+					)}
+
+					{/* Special 3D Filament Impact Section */}
+					{id === "3d-filament" && (
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className='mt-16 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8'>
+							<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										🎯 Target Users
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🎓</span>
+											<span className='text-gray-700'>
+												Educational Institutions
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🛠️</span>
+											<span className='text-gray-700'>Design Studios</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>💡</span>
+											<span className='text-gray-700'>
+												Makerspaces & Innovation Labs
+											</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+										🤝 Our Reach
+									</h3>
+									<div className='space-y-3'>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>📍</span>
+											<span className='text-gray-700'>
+												<strong>50+ partners</strong> across Egypt: schools,
+												labs, and studios
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>🔧</span>
+											<span className='text-gray-700'>
+												<strong>15 jobs created</strong> and growing
+											</span>
+										</div>
+										<div className='flex items-center space-x-3'>
+											<span className='text-2xl'>👩‍🏫</span>
+											<span className='text-gray-700'>
+												<strong>30 trained individuals</strong> now leading in
+												green 3D production
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</motion.div>
+					)}
 
 					{/* Related Products */}
 					<motion.div

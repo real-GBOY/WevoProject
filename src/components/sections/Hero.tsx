@@ -72,9 +72,9 @@ const Hero = () => {
 					transition={{ delay: 0.6, duration: 0.8 }}
 					className='mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto'>
 					{[
-						{ number: "3M+", label: "Tons of Waste Recycled" },
-						{ number: "500+", label: "Products Created" },
-						{ number: "100+", label: "Partners Joined" },
+						{ number: "100+", label: "Tons of Waste Recycled" },
+						{ number: "4+", label: "Products Created" },
+						{ number: "15+", label: "Partners Joined" },
 					].map((stat, index) => (
 						<div
 							key={index}

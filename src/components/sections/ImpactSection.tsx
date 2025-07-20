@@ -34,9 +34,9 @@ const Impact = () => {
 	});
 
 	const targetValues: CounterState = {
-		wasteProcessed: 50000,
-		co2Reduced: 25000,
-		productsCreated: 10000,
+		wasteProcessed: 100,
+		co2Reduced: 391.8,
+		productsCreated: 10020,
 		partnersJoined: 150,
 	};
 
@@ -69,7 +69,7 @@ const Impact = () => {
 	const impactStats: ImpactStat[] = [
 		{
 			icon: Trash2,
-			value: counters.wasteProcessed.toLocaleString(),
+			value: counters.wasteProcessed.toLocaleString() + "+",
 			label: "Tons of Textile Waste Processed",
 			color: "text-red-500",
 			bgColor: "bg-red-100",

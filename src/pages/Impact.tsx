@@ -36,8 +36,8 @@ const Impact = () => {
 			number: "75%",
 			label: "CO2 Reduction",
 			description: "Carbon footprint reduction compared to new production",
-			color: "text-purple-600",
-			bgColor: "bg-purple-100",
+			color: "text-emerald-600",
+			bgColor: "bg-emerald-100",
 		},
 		{
 			icon: Users,
@@ -67,28 +67,28 @@ const Impact = () => {
 
 	const milestones = [
 		{
-			year: "2022",
+			year: "2024 December",
 			title: "Project Launch",
 			description:
 				"Weavolution was founded as an Enactus project to tackle Egypt's textile waste crisis.",
 			icon: Award,
 		},
 		{
-			year: "2023",
+			year: "2025 March",
 			title: "First Production",
 			description:
 				"Successfully produced our first batch of recycled 3D printing filament.",
 			icon: Factory,
 		},
 		{
-			year: "2023",
+			year: "2025 May",
 			title: "Partnership Growth",
 			description:
 				"Established partnerships with 50+ textile manufacturers across Egypt.",
 			icon: Users,
 		},
 		{
-			year: "2024",
+			year: "2025 June",
 			title: "Scale Up",
 			description:
 				"Expanded operations to process 3 million tons of textile waste annually.",

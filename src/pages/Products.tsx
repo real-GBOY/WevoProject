@@ -9,11 +9,11 @@ const Products = () => {
 	const products = [
 		{
 			id: "3d-filament",
-			title: "3D Printing Filament",
+			title: "3D Printing Filament – Impact Overview",
 			description:
 				"High-quality filament made from recycled textile fibers, perfect for sustainable 3D printing projects and prototyping.",
 			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			price: "Starting at $25/kg",
+			price: "Contact for pricing",
 			features: [
 				"Made from 100% recycled textiles",
 				"Compatible with most 3D printers",
@@ -24,11 +24,11 @@ const Products = () => {
 		},
 		{
 			id: "recycled-yarn",
-			title: "Recycled Yarn",
+			title: "Recycled Yarn – Impact Overview",
 			description:
 				"Soft, durable yarn crafted from upcycled textiles, ideal for sustainable fashion and textile manufacturing.",
 			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			price: "Starting at $15/kg",
+			price: "Contact for pricing",
 			features: [
 				"Premium quality fibers",
 				"Various weights available",
@@ -39,11 +39,11 @@ const Products = () => {
 		},
 		{
 			id: "mdf-boards",
-			title: "MDF Boards",
+			title: "Recycled MDF Boards – Impact Overview",
 			description:
 				"Eco-friendly medium-density fiberboard made from compressed textile waste, perfect for furniture and construction.",
 			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			price: "Starting at $30/m²",
+			price: "Contact for pricing",
 			features: [
 				"Superior strength and stability",
 				"Moisture resistant",
@@ -54,11 +54,11 @@ const Products = () => {
 		},
 		{
 			id: "eco-furniture",
-			title: "Eco Furniture",
+			title: "Eco-Friendly Furniture – Impact Overview",
 			description:
 				"Beautiful, sustainable furniture pieces created from our recycled materials, combining style with environmental responsibility.",
 			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			price: "Custom pricing",
+			price: "Contact for pricing",
 			features: [
 				"Custom designs available",
 				"Handcrafted quality",
@@ -66,38 +66,6 @@ const Products = () => {
 				"Zero waste production",
 			],
 			category: "Furniture",
-		},
-		{
-			id: "insulation-panels",
-			title: "Insulation Panels",
-			description:
-				"Thermal and acoustic insulation panels made from recycled textile fibers for energy-efficient buildings.",
-			image:
-				"https://images.pexels.com/photos/8092337/pexels-photo-8092337.jpeg?auto=compress&cs=tinysrgb&w=800",
-			price: "Starting at $20/m²",
-			features: [
-				"Excellent thermal properties",
-				"Sound absorption",
-				"Fire resistant",
-				"Easy installation",
-			],
-			category: "Construction",
-		},
-		{
-			id: "composite-materials",
-			title: "Composite Materials",
-			description:
-				"Advanced composite materials combining recycled textiles with bio-based resins for industrial applications.",
-			image:
-				"https://images.pexels.com/photos/7078662/pexels-photo-7078662.jpeg?auto=compress&cs=tinysrgb&w=800",
-			price: "Contact for pricing",
-			features: [
-				"High strength-to-weight ratio",
-				"Corrosion resistant",
-				"Customizable properties",
-				"Sustainable solution",
-			],
-			category: "Manufacturing",
 		},
 	];
 
@@ -118,7 +86,7 @@ const Products = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-emerald-purple-600 to-emerald-purple-700 text-white py-20'>
+			<section className='bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -127,7 +95,7 @@ const Products = () => {
 						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
 							Sustainable Products
 						</h1>
-						<p className='text-xl md:text-2xl text-emerald-purple-100 max-w-3xl mx-auto'>
+						<p className='text-xl md:text-2xl text-green-100 max-w-3xl mx-auto'>
 							Discover our range of innovative products made from recycled
 							textile waste, designed for a sustainable future.
 						</p>
@@ -163,8 +131,8 @@ const Products = () => {
 								viewport={{ once: true }}
 								transition={{ delay: index * 0.1 }}
 								className='text-center'>
-								<div className='inline-flex items-center justify-center w-16 h-16 bg-emerald-purple-100 rounded-full mb-4'>
-									<benefit.icon className='h-8 w-8 text-emerald-purple-600' />
+								<div className='inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4'>
+									<benefit.icon className='h-8 w-8 text-green-600' />
 								</div>
 								<h3 className='text-xl font-semibold text-gray-900 mb-2'>
 									{benefit.title}
@@ -186,8 +154,8 @@ const Products = () => {
 								onClick={() => setSelectedCategory(category)}
 								className={`px-6 py-2 rounded-full font-medium transition-all ${
 									selectedCategory === category
-										? "bg-emerald-purple-600 text-white"
-										: "bg-white text-gray-700 hover:bg-emerald-purple-50 hover:text-emerald-purple-600"
+										? "bg-green-600 text-white"
+										: "bg-white text-gray-700 hover:bg-green-50 hover:text-green-600"
 								}`}>
 								{category}
 							</button>
@@ -215,7 +183,7 @@ const Products = () => {
 										className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-300'
 									/>
 									<div className='absolute top-4 left-4'>
-										<span className='bg-emerald-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium'>
+										<span className='bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium'>
 											{product.category}
 										</span>
 									</div>
@@ -230,7 +198,7 @@ const Products = () => {
 									</p>
 
 									<div className='mb-4'>
-										<p className='text-lg font-semibold text-emerald-purple-600 mb-2'>
+										<p className='text-lg font-semibold text-green-600 mb-2'>
 											{product.price}
 										</p>
 										<ul className='space-y-1'>
@@ -238,7 +206,7 @@ const Products = () => {
 												<li
 													key={idx}
 													className='text-sm text-gray-600 flex items-center'>
-													<div className='w-1.5 h-1.5 bg-emerald-purple-500 rounded-full mr-2' />
+													<div className='w-1.5 h-1.5 bg-green-500 rounded-full mr-2' />
 													{feature}
 												</li>
 											))}
@@ -247,7 +215,7 @@ const Products = () => {
 
 									<Link
 										to={`/products/${product.id}`}
-										className='group/link inline-flex items-center text-emerald-purple-600 hover:text-emerald-purple-700 font-medium transition-colors'>
+										className='group/link inline-flex items-center text-green-600 hover:text-green-700 font-medium transition-colors'>
 										<span>Learn More</span>
 										<ArrowRight className='h-4 w-4 ml-2 group-hover/link:translate-x-1 transition-transform' />
 									</Link>

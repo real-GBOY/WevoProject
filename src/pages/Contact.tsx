@@ -18,7 +18,7 @@ const Contact = () => {
 		{
 			icon: Mail,
 			title: "Email Us",
-			details: "info@weavolution.com",
+			details: "enactusmenoufia@gmail.com",
 			description: "Send us an email and we'll respond within 24 hours",
 			color: "text-blue-600",
 			bgColor: "bg-blue-100",
@@ -26,7 +26,7 @@ const Contact = () => {
 		{
 			icon: Phone,
 			title: "Call Us",
-			details: "+20 123 456 7890",
+			details: "01026597474",
 			description: "Available Monday to Friday, 9 AM to 6 PM",
 			color: "text-green-600",
 			bgColor: "bg-green-100",
@@ -36,8 +36,8 @@ const Contact = () => {
 			title: "Visit Us",
 			details: "Cairo, Egypt",
 			description: "Schedule a visit to our facilities and see our process",
-			color: "text-purple-600",
-			bgColor: "bg-purple-100",
+			color: "text-emerald-600",
+			bgColor: "bg-emerald-100",
 		},
 		{
 			icon: Clock,
@@ -52,22 +52,22 @@ const Contact = () => {
 	const departments = [
 		{
 			name: "General Inquiries",
-			email: "info@weavolution.com",
+			email: "enactusmenoufia@gmail.com",
 			description: "Questions about our mission, products, or services",
 		},
 		{
 			name: "Partnerships",
-			email: "partners@weavolution.com",
+			email: "enactusmenoufia@gmail.com",
 			description: "Collaboration opportunities and business partnerships",
 		},
 		{
 			name: "Sales & Orders",
-			email: "sales@weavolution.com",
+			email: "enactusmenoufia@gmail.com",
 			description: "Product orders, quotes, and sales support",
 		},
 		{
 			name: "Media & Press",
-			email: "media@weavolution.com",
+			email: "enactusmenoufia@gmail.com",
 			description: "Press inquiries and media relations",
 		},
 	];
@@ -223,7 +223,7 @@ const Contact = () => {
 									<input
 										type='tel'
 										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
-										placeholder='+20 XXX XXX XXXX'
+										placeholder='01026597474'
 									/>
 								</div>
 							</div>
