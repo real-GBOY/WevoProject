@@ -7,7 +7,7 @@ import { ArrowRight, Heart } from "lucide-react";
 
 const CallToAction = () => {
 	return (
-		<section className='py-20 bg-gradient-to-b from-emerald-100 via-emerald-600 to-emerald-800 relative overflow-hidden'>
+		<section className='py-20 bg-gradient-to-b from-emerald-purple-100 via-emerald-purple-600 to-emerald-purple-800 relative overflow-hidden'>
 			{/* Background Pattern */}
 			<div className='absolute inset-0 opacity-10'>
 				<svg

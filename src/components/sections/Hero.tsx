@@ -32,7 +32,7 @@ const Hero = () => {
 					transition={{ duration: 0.8 }}>
 					<h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight'>
 						Transforming
-						<span className='text-green-400 block'>Textile Waste</span>
+						<span className='text-emerald-purple-400 block'>Textile Waste</span>
 						Into Opportunity
 					</h1>
 
@@ -53,7 +53,7 @@ const Hero = () => {
 						className='flex flex-col sm:flex-row items-center justify-center gap-4'>
 						<Link
 							to='/products'
-							className='group bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all transform hover:scale-105'>
+							className='group bg-emerald-purple-600 hover:bg-emerald-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all transform hover:scale-105'>
 							<span>Explore Products</span>
 							<ArrowRight className='h-5 w-5 group-hover:translate-x-1 transition-transform' />
 						</Link>
@@ -79,7 +79,7 @@ const Hero = () => {
 						<div
 							key={index}
 							className='bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 text-center'>
-							<div className='text-3xl md:text-4xl font-bold text-green-400 mb-2'>
+							<div className='text-3xl md:text-4xl font-bold text-emerald-purple-400 mb-2'>
 								{stat.number}
 							</div>
 							<div className='text-white text-sm md:text-base'>

@@ -12,36 +12,32 @@ const ProductShowcase = () => {
 			title: "3D Printing Filament",
 			description:
 				"High-quality filament made from recycled textile fibers, perfect for 3D printing projects.",
-			image:
-				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			color: "from-blue-500 to-cyan-500",
+			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			color: "from-emerald-purple-500 to-emerald-purple-600",
 		},
 		{
 			id: "recycled-yarn",
 			title: "Recycled Yarn",
 			description:
 				"Soft, durable yarn crafted from upcycled textiles for sustainable fashion and crafts.",
-			image:
-				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			color: "from-green-500 to-emerald-500",
+			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			color: "from-emerald-purple-500 to-emerald-purple-600",
 		},
 		{
 			id: "mdf-boards",
 			title: "MDF Boards",
 			description:
 				"Eco-friendly medium-density fiberboard made from compressed textile waste.",
-			image:
-				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			color: "from-amber-500 to-orange-500",
+			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			color: "from-emerald-purple-500 to-emerald-purple-600",
 		},
 		{
 			id: "eco-furniture",
 			title: "Eco Furniture",
 			description:
 				"Beautiful, sustainable furniture pieces created from our recycled materials.",
-			image:
-				"https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
-			color: "from-purple-500 to-pink-500",
+			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			color: "from-emerald-purple-500 to-emerald-purple-600",
 		},
 	];
 
@@ -86,14 +82,14 @@ const ProductShowcase = () => {
 									</div>
 
 									<div className='p-6'>
-										<h3 className='text-xl font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition-colors'>
+										<h3 className='text-xl font-semibold text-gray-900 mb-2 group-hover:text-emerald-purple-600 transition-colors'>
 											{product.title}
 										</h3>
 										<p className='text-gray-600 mb-4 leading-relaxed'>
 											{product.description}
 										</p>
 
-										<div className='flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors'>
+										<div className='flex items-center text-emerald-purple-600 font-medium group-hover:text-emerald-purple-700 transition-colors'>
 											<span>Learn More</span>
 											<ArrowRight className='h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform' />
 										</div>
@@ -111,7 +107,7 @@ const ProductShowcase = () => {
 					className='text-center mt-12'>
 					<Link
 						to='/products'
-						className='inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-all transform hover:scale-105'>
+						className='inline-flex items-center bg-emerald-purple-600 hover:bg-emerald-purple-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-all transform hover:scale-105'>
 						View All Products
 						<ArrowRight className='h-5 w-5 ml-2' />
 					</Link>

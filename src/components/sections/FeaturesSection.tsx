@@ -74,9 +74,9 @@ const FeaturesSection: React.FC<FeaturesSectionProps> = ({
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ delay: index * 0.1 }}
-							className='text-center p-6 rounded-xl bg-gray-50 hover:bg-green-50 transition-colors group'>
-							<div className='inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4 group-hover:bg-green-200 transition-colors'>
-								<feature.icon className='h-8 w-8 text-green-600' />
+							className='text-center p-6 rounded-xl bg-gray-50 hover:bg-emerald-purple-50 transition-colors group'>
+							<div className='inline-flex items-center justify-center w-16 h-16 bg-emerald-purple-100 rounded-full mb-4 group-hover:bg-emerald-purple-200 transition-colors'>
+								<feature.icon className='h-8 w-8 text-emerald-purple-600' />
 							</div>
 							<h3 className='text-xl font-semibold text-gray-900 mb-2'>
 								{feature.title}

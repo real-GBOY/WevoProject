@@ -11,8 +11,8 @@ const ImpactStats = () => {
 			number: "50,000",
 			label: "Trees Saved",
 			description: "Equivalent trees saved through our recycling process",
-			color: "text-green-600",
-			bgColor: "bg-green-100",
+			color: "text-emerald-purple-600",
+			bgColor: "bg-emerald-purple-100",
 		},
 		{
 			icon: Droplets,

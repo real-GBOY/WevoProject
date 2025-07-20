@@ -27,7 +27,7 @@ const Navbar = () => {
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<div className='flex justify-between items-center h-16'>
 					<Link to='/' className='flex items-center space-x-2'>
-						<Recycle className='h-8 w-8 text-green-600' />
+						<Recycle className='h-8 w-8 text-emerald-purple-600' />
 						<span className='text-xl font-bold text-gray-900'>Weavolution</span>
 					</Link>
 
@@ -39,14 +39,14 @@ const Navbar = () => {
 								to={item.path}
 								className={`relative px-3 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-green-600"
-										: "text-gray-700 hover:text-green-600"
+										? "text-emerald-purple-600"
+										: "text-gray-700 hover:text-emerald-purple-600"
 								}`}>
 								{item.name}
 								{location.pathname === item.path && (
 									<motion.div
 										layoutId='navbar-indicator'
-										className='absolute bottom-0 left-0 right-0 h-0.5 bg-green-600'
+										className='absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-purple-600'
 									/>
 								)}
 							</Link>
@@ -81,8 +81,8 @@ const Navbar = () => {
 								onClick={() => setIsOpen(false)}
 								className={`block px-4 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-green-600 bg-green-50"
-										: "text-gray-700 hover:text-green-600 hover:bg-green-50"
+										? "text-emerald-purple-600 bg-emerald-purple-50"
+										: "text-gray-700 hover:text-emerald-purple-600 hover:bg-emerald-purple-50"
 								}`}>
 								{item.name}
 							</Link>
