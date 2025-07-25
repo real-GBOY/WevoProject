@@ -124,10 +124,10 @@ const Contact = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-12'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Send Us a Message
 						</h2>
-						<p className='text-xl text-gray-600'>
+						<p className='text-xl text-gray-900'>
 							Fill out the form below and we'll get back to you as soon as
 							possible.
 						</p>
@@ -246,45 +246,6 @@ const Contact = () => {
 				</div>
 			</section>
 
-			{/* Department Contacts */}
-			<section className='py-20 bg-white'>
-				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-					<motion.div
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-							Department Contacts
-						</h2>
-						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-							Need to reach a specific department? Use these direct contacts for
-							faster assistance.
-						</p>
-					</motion.div>
-
-					<div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-						{departments.map((dept, index) => (
-							<motion.div
-								key={index}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: index * 0.1 }}
-								className='bg-gray-50 rounded-xl p-6 hover:bg-emerald-50 transition-colors group'>
-								<h3 className='text-xl font-semibold text-gray-900 mb-2 group-hover:text-emerald-700 transition-colors'>
-									{dept.name}
-								</h3>
-								<p className='text-emerald-600 font-medium mb-2'>
-									{dept.email}
-								</p>
-								<p className='text-gray-600 text-sm'>{dept.description}</p>
-							</motion.div>
-						))}
-					</div>
-				</div>
-			</section>
-
 			{/* FAQ Section */}
 			<section className='py-20 bg-gray-50'>
 				<div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -337,17 +298,20 @@ const Contact = () => {
 							products, and sustainability initiatives.
 						</p>
 						<div className='flex justify-center space-x-6'>
-							{["Facebook", "Twitter", "Instagram", "LinkedIn"].map(
-								(platform) => (
-									<motion.a
-										key={platform}
-										href='#'
-										whileHover={{ scale: 1.1 }}
-										className='bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-6 py-3 rounded-full font-medium transition-all'>
-										{platform}
-									</motion.a>
-								)
-							)}
+							<motion.a
+								key='Facebook'
+								href='https://www.facebook.com/profile.php?id=61578153764822'
+								whileHover={{ scale: 1.1 }}
+								className='bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-6 py-3 rounded-full font-medium transition-all'>
+								Facebook
+							</motion.a>
+							<motion.a
+								key='Instagram'
+								href='https://www.instagram.com/weavolution4?igsh=Y3dsdTY5MmtxMjJn&utm_source=qr&fbclid=IwY2xjawLwsM9leHRuA2FlbQIxMABicmlkETE1VXZyd1dpUlIzMHNhV1pjAR6YPBvwF_SPUN4VoIwUCOzKeiRCA81Uy6CkBSdmVPmAG8P0hQg6Gdg-kIQe4g_aem_w6I5fniPZ4IogxuESUSacQ'
+								whileHover={{ scale: 1.1 }}
+								className='bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-6 py-3 rounded-full font-medium transition-all'>
+								Instagram
+							</motion.a>
 						</div>
 					</motion.div>
 				</div>
