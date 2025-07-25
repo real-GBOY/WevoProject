@@ -289,7 +289,7 @@ const Contact = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}>
-						<Users className='h-16 w-16 mx-auto mb-6 text-emerald-200' />
+						<Users className='h-16 w-16 mx-auto mb-6 text-secondary' />
 						<h2 className='text-3xl md:text-4xl font-bold mb-6'>
 							Join Our Community
 						</h2>
