@@ -41,7 +41,7 @@ const Home = () => {
 	];
 
 	return (
-		<div className='pt-16'>
+		<div className='pt-16 bg-secondary/10'>
 			<Hero />
 			{/* Impact section */}
 			<ImpactSection />

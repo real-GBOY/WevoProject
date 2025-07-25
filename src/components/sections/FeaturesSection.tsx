@@ -37,7 +37,7 @@ interface FeaturesSectionProps {
 }
 
 const FeaturesSection: React.FC<FeaturesSectionProps> = ({
-	backgroundImage = "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+	backgroundImage = "https://i.postimg.cc/KjCPs9kg/Whats-App-Image-2025-07-20-at-19-19-34-21f357db.jpg",
 }) => {
 	const sectionStyle = backgroundImage
 		? {

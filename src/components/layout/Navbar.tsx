@@ -27,8 +27,12 @@ const Navbar = () => {
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<div className='flex justify-between items-center h-16'>
 					<Link to='/' className='flex items-center space-x-2'>
-						<Recycle className='h-8 w-8 text-emerald-purple-600' />
-						<span className='text-xl font-bold text-gray-900'>Weavolution</span>
+						<img
+							src='https://i.postimg.cc/QxrqLdfB/Icon.png'
+							alt='Logo'
+							className='h-8 w-8'
+						/>
+						<span className='text-xl font-bold text-primary'>Weavolution</span>
 					</Link>
 
 					{/* Desktop Navigation */}
@@ -39,14 +43,14 @@ const Navbar = () => {
 								to={item.path}
 								className={`relative px-3 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-emerald-purple-600"
-										: "text-gray-700 hover:text-emerald-purple-600"
+										? "text-primary"
+										: "text-gray-700 hover:text-primary"
 								}`}>
 								{item.name}
 								{location.pathname === item.path && (
 									<motion.div
 										layoutId='navbar-indicator'
-										className='absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-purple-600'
+										className='absolute bottom-0 left-0 right-0 h-0.5 bg-primary'
 									/>
 								)}
 							</Link>
@@ -81,8 +85,8 @@ const Navbar = () => {
 								onClick={() => setIsOpen(false)}
 								className={`block px-4 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-emerald-purple-600 bg-emerald-purple-50"
-										: "text-gray-700 hover:text-emerald-purple-600 hover:bg-emerald-purple-50"
+										? "text-primary bg-primary/10"
+										: "text-gray-700 hover:text-primary hover:bg-primary/10"
 								}`}>
 								{item.name}
 							</Link>

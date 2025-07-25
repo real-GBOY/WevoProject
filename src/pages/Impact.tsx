@@ -99,7 +99,7 @@ const Impact = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20'>
+			<section className='bg-gradient-to-r from-primary-600 to-primary-700 text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -124,7 +124,7 @@ const Impact = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Making a Real Difference
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -184,7 +184,7 @@ const Impact = () => {
 								initial={{ opacity: 0, x: -30 }}
 								whileInView={{ opacity: 1, x: 0 }}
 								viewport={{ once: true }}>
-								<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
+								<h2 className='text-3xl md:text-4xl font-bold text-primary mb-6'>
 									Environmental Benefits
 								</h2>
 								<p className='text-lg text-gray-600 mb-6'>
@@ -202,8 +202,8 @@ const Impact = () => {
 										"Creates sustainable alternatives to virgin materials",
 									].map((benefit, index) => (
 										<div key={index} className='flex items-center space-x-3'>
-											<div className='w-2 h-2 bg-green-600 rounded-full' />
-											<span className='text-gray-700'>{benefit}</span>
+											<div className='w-2 h-2 bg-primary-600 rounded-full' />
+											<span className='text-primary-700'>{benefit}</span>
 										</div>
 									))}
 								</div>
@@ -216,11 +216,11 @@ const Impact = () => {
 							viewport={{ once: true }}
 							className='relative'>
 							<img
-								src='https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800'
+								src='https://i.postimg.cc/x8Kzd9pt/499617557-10236085423091834-2372355005821905456-n.jpg'
 								alt='Environmental impact'
 								className='w-full h-64 object-cover rounded-2xl'
 							/>
-							<div className='absolute inset-0 bg-green-600 bg-opacity-20 rounded-2xl' />
+							<div className='absolute inset-0 bg-primary-500 bg-opacity-20 rounded-2xl' />
 						</motion.div>
 					</div>
 				</div>
@@ -263,17 +263,17 @@ const Impact = () => {
 											index % 2 === 0 ? "pr-8 text-right" : "pl-8 text-left"
 										}`}>
 										<div className='bg-white p-6 rounded-xl shadow-lg'>
-											<div className='text-green-600 font-bold text-lg mb-2'>
+											<div className='text-primary-600 font-bold text-lg mb-2'>
 												{milestone.year}
 											</div>
-											<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+											<h3 className='text-xl font-semibold text-primary-900 mb-2'>
 												{milestone.title}
 											</h3>
 											<p className='text-gray-600'>{milestone.description}</p>
 										</div>
 									</div>
 
-									<div className='relative z-10 flex items-center justify-center w-12 h-12 bg-green-600 rounded-full'>
+									<div className='relative z-10 flex items-center justify-center w-12 h-12 bg-primary-600 rounded-full'>
 										<milestone.icon className='h-6 w-6 text-white' />
 									</div>
 
@@ -286,7 +286,7 @@ const Impact = () => {
 			</section>
 
 			{/* Call to Action */}
-			<section className='py-20 bg-gradient-to-r from-green-600 to-emerald-700 text-white'>
+			<section className='py-20 bg-gradient-to-r from-primary-600 to-primary-700 text-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -303,13 +303,13 @@ const Impact = () => {
 							<motion.a
 								href='/partner'
 								whileHover={{ scale: 1.05 }}
-								className='bg-white text-green-700 hover:bg-green-50 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
+								className='bg-white text-primary-700 hover:bg-primary-50 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
 								Partner With Us
 							</motion.a>
 							<motion.a
 								href='/contact'
 								whileHover={{ scale: 1.05 }}
-								className='border-2 border-white text-white hover:bg-white hover:text-green-700 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
+								className='border-2 border-white text-white hover:bg-white hover:text-primary-700 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
 								Learn More
 							</motion.a>
 						</div>

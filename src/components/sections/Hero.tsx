@@ -7,21 +7,21 @@ import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
 	return (
-		<section className='relative min-h-screen flex items-center justify-center overflow-hidden att'>
+		<section className='relative min-h-screen flex items-center justify-center overflow-hidden'>
 			{/* Background Image with Gradient Overlay */}
 			<div className='absolute inset-0 z-0'>
 				<div
 					className='w-full h-full'
 					style={{
 						backgroundImage:
-							'url("https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg")',
+							'url("https://i.postimg.cc/R03t6kP5/Cover-Solid-Gedan.png")',
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 						backgroundAttachment: "fixed",
 					}}
 				/>
-				<div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-emerald-900/50'></div>
+				<div className='absolute inset-0 bg-primary/90 backdrop-blur-sm'></div>
 			</div>
 
 			{/* Content */}
@@ -31,16 +31,15 @@ const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}>
 					<h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight'>
-						Transforming
-						<span className='text-emerald-purple-400 block'>Textile Waste</span>
-						Into Opportunity
+						Transforming Textile Waste
+						<span className='text-secondary block'>Into Opportunity</span>
 					</h1>
 
 					<motion.p
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.2, duration: 0.8 }}
-						className='text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed'>
+						className='text-white text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed'>
 						Join us in revolutionizing Egypt's textile industry by converting 3
 						million tons of waste into sustainable products for a greener
 						future.
@@ -53,7 +52,7 @@ const Hero = () => {
 						className='flex flex-col sm:flex-row items-center justify-center gap-4'>
 						<Link
 							to='/products'
-							className='group bg-emerald-purple-600 hover:bg-emerald-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all transform hover:scale-105'>
+							className='group bg-secondary hover:bg-secondary/80 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all transform hover:scale-105'>
 							<span>Explore Products</span>
 							<ArrowRight className='h-5 w-5 group-hover:translate-x-1 transition-transform' />
 						</Link>
@@ -79,7 +78,7 @@ const Hero = () => {
 						<div
 							key={index}
 							className='bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 text-center'>
-							<div className='text-3xl md:text-4xl font-bold text-emerald-purple-400 mb-2'>
+							<div className='text-3xl md:text-4xl font-bold text-secondary mb-2'>
 								{stat.number}
 							</div>
 							<div className='text-white text-sm md:text-base'>
@@ -90,23 +89,7 @@ const Hero = () => {
 				</motion.div>
 			</div>
 
-			{/* Scroll Indicator */}
-			{/* <motion.div
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ delay: 1, duration: 0.8 }}
-				className='absolute bottom-12 left-1/2 transform -translate-x-1/2 z-10'>
-				<motion.div
-					animate={{ y: [0, 10, 0] }}
-					transition={{ repeat: Infinity, duration: 2 }}
-					className='w-6 h-10 border-2 border-white/50 rounded-full flex justify-center backdrop-blur-sm'>
-					<motion.div
-						animate={{ y: [0, 12, 0] }}
-						transition={{ repeat: Infinity, duration: 2 }}
-						className='w-1 h-3 bg-white/80 rounded-full mt-2'
-					/>
-				</motion.div>
-			</motion.div> */}
+			{/* Scroll Indicator (optional) */}
 		</section>
 	);
 };

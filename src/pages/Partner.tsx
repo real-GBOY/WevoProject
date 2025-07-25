@@ -161,7 +161,7 @@ const Partner = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20'>
+			<section className='py-20 bg-gradient-to-r from-primary to-primary text-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -296,7 +296,7 @@ const Partner = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							How It Works
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -315,17 +315,17 @@ const Partner = () => {
 								transition={{ delay: index * 0.1 }}
 								className='text-center relative'>
 								<div className='relative z-10'>
-									<div className='w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4'>
+									<div className='w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4'>
 										{step.number}
 									</div>
-									<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+									<h3 className='text-xl font-semibold text-primary-900 mb-2'>
 										{step.title}
 									</h3>
 									<p className='text-gray-600'>{step.description}</p>
 								</div>
 
 								{index < steps.length - 1 && (
-									<div className='hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-green-200 z-0'>
+									<div className='hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-primary-200 z-0'>
 										<ArrowRight className='absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 h-4 w-4 text-green-600' />
 									</div>
 								)}
@@ -343,7 +343,7 @@ const Partner = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Our Trusted Partners
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -362,15 +362,15 @@ const Partner = () => {
 								transition={{ delay: index * 0.1 }}
 								className='group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:scale-105'>
 								<div className='text-center'>
-									<div className='w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300'>
+									<div className='w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300'>
 										<span className='text-white font-bold text-lg'>
 											{partner.name.charAt(0)}
 										</span>
 									</div>
-									<h3 className='text-xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors'>
+									<h3 className='text-xl font-bold text-primary-900 mb-3 group-hover:text-green-700 transition-colors'>
 										{partner.name}
 									</h3>
-									<div className='inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium mb-4'>
+									<div className='inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-sm font-medium mb-4'>
 										{partner.type}
 									</div>
 									<p className='text-gray-600 text-sm leading-relaxed'>
@@ -474,7 +474,7 @@ const Partner = () => {
 						<div className='mt-8 text-center'>
 							<button
 								type='submit'
-								className='bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors inline-flex items-center space-x-2'>
+								className='bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors inline-flex items-center space-x-2'>
 								<span>Submit Partnership Request</span>
 								<ArrowRight className='h-5 w-5' />
 							</button>

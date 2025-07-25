@@ -86,7 +86,7 @@ const Products = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20'>
+			<section className='bg-primary text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -95,7 +95,7 @@ const Products = () => {
 						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
 							Sustainable Products
 						</h1>
-						<p className='text-xl md:text-2xl text-green-100 max-w-3xl mx-auto'>
+						<p className='text-emerald-purple-500 text-xl md:text-2xl max-w-3xl mx-auto '>
 							Discover our range of innovative products made from recycled
 							textile waste, designed for a sustainable future.
 						</p>
@@ -131,13 +131,13 @@ const Products = () => {
 								viewport={{ once: true }}
 								transition={{ delay: index * 0.1 }}
 								className='text-center'>
-								<div className='inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4'>
-									<benefit.icon className='h-8 w-8 text-green-600' />
+								<div className='inline-flex items-center justify-center w-16 h-16 bg-secondary rounded-full mb-4'>
+									<benefit.icon className='h-8 w-8 text-primary' />
 								</div>
-								<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+								<h3 className='text-xl font-semibold text-primary mb-2'>
 									{benefit.title}
 								</h3>
-								<p className='text-gray-600'>{benefit.description}</p>
+								<p>{benefit.description}</p>
 							</motion.div>
 						))}
 					</div>
@@ -145,7 +145,7 @@ const Products = () => {
 			</section>
 
 			{/* Category Filter */}
-			<section className='py-8 bg-gray-50'>
+			<section className='py-8 bg-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<div className='flex flex-wrap justify-center gap-4'>
 						{categories.map((category) => (
@@ -154,8 +154,8 @@ const Products = () => {
 								onClick={() => setSelectedCategory(category)}
 								className={`px-6 py-2 rounded-full font-medium transition-all ${
 									selectedCategory === category
-										? "bg-green-600 text-white"
-										: "bg-white text-gray-700 hover:bg-green-50 hover:text-green-600"
+										? "bg-primary text-white"
+										: "bg-white text-primary hover:bg-secondary hover:text-white"
 								}`}>
 								{category}
 							</button>
@@ -165,7 +165,7 @@ const Products = () => {
 			</section>
 
 			{/* Products Grid */}
-			<section className='py-16 bg-gray-50'>
+			<section className='py-16 bg-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 						{filteredProducts.map((product, index) => (
@@ -183,30 +183,28 @@ const Products = () => {
 										className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-300'
 									/>
 									<div className='absolute top-4 left-4'>
-										<span className='bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium'>
+										<span className='bg-primary text-white px-3 py-1 rounded-full text-sm font-medium'>
 											{product.category}
 										</span>
 									</div>
 								</div>
 
 								<div className='p-6'>
-									<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+									<h3 className='text-xl font-semibold text-primary mb-2'>
 										{product.title}
 									</h3>
-									<p className='text-gray-600 mb-4 leading-relaxed'>
-										{product.description}
-									</p>
+									<p className='mb-4 leading-relaxed'>{product.description}</p>
 
 									<div className='mb-4'>
-										<p className='text-lg font-semibold text-green-600 mb-2'>
+										<p className='text-lg font-semibold text-secondary mb-2'>
 											{product.price}
 										</p>
 										<ul className='space-y-1'>
 											{product.features.slice(0, 2).map((feature, idx) => (
 												<li
 													key={idx}
-													className='text-sm text-gray-600 flex items-center'>
-													<div className='w-1.5 h-1.5 bg-green-500 rounded-full mr-2' />
+													className='text-sm flex items-center'>
+													<div className='w-1.5 h-1.5 bg-secondary rounded-full mr-2' />
 													{feature}
 												</li>
 											))}
@@ -215,7 +213,7 @@ const Products = () => {
 
 									<Link
 										to={`/products/${product.id}`}
-										className='group/link inline-flex items-center text-green-600 hover:text-green-700 font-medium transition-colors'>
+										className='group/link inline-flex items-center text-secondary hover:text-primary font-medium transition-colors'>
 										<span>Learn More</span>
 										<ArrowRight className='h-4 w-4 ml-2 group-hover/link:translate-x-1 transition-transform' />
 									</Link>

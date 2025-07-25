@@ -7,7 +7,7 @@ import { ArrowRight, Heart } from "lucide-react";
 
 const CallToAction = () => {
 	return (
-		<section className='py-20 bg-gradient-to-b from-emerald-100 via-emerald-600 to-emerald-800 relative overflow-hidden'>
+		<section className='py-20 bg-gradient-to-b from-primary-100 via-primary-600 to-primary-800 relative overflow-hidden'>
 			{/* Background Pattern */}
 			<div className='absolute inset-0 opacity-10'>
 				<svg
@@ -47,12 +47,12 @@ const CallToAction = () => {
 
 					<h2 className='text-3xl md:text-5xl font-bold text-white mb-6 leading-tight'>
 						Ready to Join the
-						<span className='block text-emerald-200'>
+						<span className='block text-primary-800'>
 							Sustainable Revolution?
 						</span>
 					</h2>
 
-					<p className='text-xl text-emerald-100 mb-8 leading-relaxed'>
+					<p className='text-xl text-white mb-8 leading-relaxed'>
 						Partner with us to transform textile waste into opportunity.
 						Together, we can create a cleaner, more sustainable future for Egypt
 						and beyond.
@@ -62,7 +62,7 @@ const CallToAction = () => {
 						<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
 							<Link
 								to='/partner'
-								className='group bg-white text-emerald-700 hover:bg-emerald-50 px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all shadow-lg'>
+								className='group bg-white text-primary-700 hover:bg-emerald-50 px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all shadow-lg'>
 								<span>Become a Partner</span>
 								<ArrowRight className='h-5 w-5 group-hover:translate-x-1 transition-transform' />
 							</Link>

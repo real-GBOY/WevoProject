@@ -41,7 +41,7 @@ const ImpactStats = () => {
 	];
 
 	return (
-		<section className='py-20 bg-gradient-to-b from-white via-emerald-50 to-emerald-100'>
+		<section className='py-20 bg-gradient-to-b from-white via-primary-50 to-primary-100'>
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
@@ -106,7 +106,7 @@ const ImpactStats = () => {
 					<h3 className='text-2xl font-bold text-emerald-900 mb-4'>
 						Together, We're Making a Difference
 					</h3>
-					<p className='text-emerald-800 max-w-2xl mx-auto'>
+					<p className='text-whi-800 max-w-2xl mx-auto'>
 						Join thousands of partners and customers who are already part of the
 						sustainable revolution. Every purchase supports Egypt's circular
 						economy and environmental protection.

@@ -123,8 +123,8 @@ const Impact = () => {
 					whileInView='visible'
 					viewport={{ once: true }}
 					transition={{ duration: 0.8 }}>
-					<h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-emerald-800 mb-6'>
-						Our <span className='text-emerald-600'>Impact</span>
+					<h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-800 mb-6'>
+						Our <span className='text-primary'>Impact</span>
 					</h2>
 					<p className='text-lg text-emerald-700 max-w-3xl mx-auto'>
 						Measuring our contribution to a sustainable future through concrete
@@ -156,7 +156,7 @@ const Impact = () => {
 
 				{/* Environmental Impact Visualization */}
 				<motion.div
-					className='bg-gradient-to-r from-emerald-500 via-emerald-600 to-emerald-700 rounded-3xl p-8 lg:p-12 text-white shadow-xl'
+					className='bg-gradient-to-r from-primary-500 via-primary-600 to-primary-700 rounded-3xl p-8 lg:p-12 text-white shadow-xl'
 					variants={containerVariants}
 					initial='hidden'
 					whileInView='visible'

@@ -5,40 +5,7 @@ import { motion } from "framer-motion";
 import { Users, Target, Eye, Heart, Award, Globe } from "lucide-react";
 
 const About = () => {
-	const teamMembers = [
-		{
-			name: "Ahmed Hassan",
-			role: "Project Director",
-			image:
-				"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
-			description:
-				"Environmental Engineering student passionate about sustainable solutions.",
-		},
-		{
-			name: "Fatima Al-Zahra",
-			role: "Operations Manager",
-			image:
-				"https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300",
-			description:
-				"Business Administration graduate specializing in sustainable operations.",
-		},
-		{
-			name: "Omar Mahmoud",
-			role: "Technical Lead",
-			image:
-				"https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300",
-			description:
-				"Materials Science researcher focused on textile recycling innovations.",
-		},
-		{
-			name: "Yasmin Ibrahim",
-			role: "Community Outreach",
-			image:
-				"https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300",
-			description:
-				"Social Sciences student dedicated to community engagement and education.",
-		},
-	];
+	
 
 	const values = [
 		{
@@ -70,7 +37,7 @@ const About = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20'>
+			<section className='bg-gradient-to-r from-primary to-primary text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -98,10 +65,10 @@ const About = () => {
 							className='space-y-8'>
 							<div className='flex items-start space-x-4'>
 								<div className='flex-shrink-0'>
-									<Target className='h-8 w-8 text-green-600' />
+									<Target className='h-8 w-8 text-primary-600' />
 								</div>
 								<div>
-									<h2 className='text-3xl font-bold text-gray-900 mb-4'>
+									<h2 className='text-3xl font-bold text-primary mb-4'>
 										Our Mission
 									</h2>
 									<p className='text-lg text-gray-600 leading-relaxed'>
@@ -116,10 +83,10 @@ const About = () => {
 
 							<div className='flex items-start space-x-4'>
 								<div className='flex-shrink-0'>
-									<Eye className='h-8 w-8 text-green-600' />
+									<Eye className='h-8 w-8 text-primary-600' />
 								</div>
 								<div>
-									<h2 className='text-3xl font-bold text-gray-900 mb-4'>
+									<h2 className='text-3xl font-bold text-primary mb-4'>
 										Our Vision
 									</h2>
 									<p className='text-lg text-gray-600 leading-relaxed'>
@@ -139,11 +106,10 @@ const About = () => {
 							viewport={{ once: true }}
 							className='relative'>
 							<img
-								src='https://images.pexels.com/photos/3862365/pexels-photo-3862365.jpeg?auto=compress&cs=tinysrgb&w=800'
+								src='https://i.postimg.cc/3wm418Y7/468532784-122193920300215340-6207401663272859918-n.jpg'
 								alt='Our mission in action'
 								className='w-full h-96 object-cover rounded-2xl'
 							/>
-							<div className='absolute inset-0 bg-green-600 bg-opacity-20 rounded-2xl' />
 						</motion.div>
 					</div>
 				</div>
@@ -157,7 +123,7 @@ const About = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Our Story
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -250,7 +216,7 @@ const About = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Our Values
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -266,11 +232,11 @@ const About = () => {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								transition={{ delay: index * 0.1 }}
-								className='bg-gray-50 rounded-2xl p-8 hover:bg-green-50 transition-colors group'>
+								className='bg-gray-50 rounded-2xl p-8 hover:bg-primary-50 transition-colors group'>
 								<div className='flex items-start space-x-4'>
 									<div className='flex-shrink-0'>
-										<div className='w-12 h-12 bg-green-100 rounded-full flex items-center justify-center group-hover:bg-green-200 transition-colors'>
-											<value.icon className='h-6 w-6 text-green-600' />
+										<div className='w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors'>
+											<value.icon className='h-6 w-6 text-primary-600' />
 										</div>
 									</div>
 									<div>
@@ -288,9 +254,8 @@ const About = () => {
 				</div>
 			</section>
 
-		
 			{/* Call to Action */}
-			<section className='py-20 bg-gradient-to-r from-green-600 to-emerald-700 text-white'>
+			<section className='py-20 bg-gradient-to-r from-primary to-primary text-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -307,13 +272,13 @@ const About = () => {
 							<motion.a
 								href='/partner'
 								whileHover={{ scale: 1.05 }}
-								className='bg-white text-green-700 hover:bg-green-50 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
+								className='bg-white text-primary-700 hover:bg-primary-50 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
 								Partner With Us
 							</motion.a>
 							<motion.a
 								href='/contact'
 								whileHover={{ scale: 1.05 }}
-								className='border-2 border-white text-white hover:bg-white hover:text-green-700 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
+								className='border-2 border-white text-white hover:bg-white hover:text-primary-700 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
 								Get in Touch
 							</motion.a>
 						</div>

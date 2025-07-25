@@ -98,7 +98,7 @@ const Contact = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-emerald-purple-600 to-emerald-purple-700 text-white py-20'>
+			<section className='bg-gradient-to-r from-primary to-primary text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
@@ -365,7 +365,7 @@ const Contact = () => {
 			</section>
 
 			{/* Call to Action */}
-			<section className='py-20 bg-gradient-to-r from-emerald-purple-600 to-emerald-purple-700 text-white'>
+			<section className='py-20 bg-gradient-to-r from-primary to-primary text-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
