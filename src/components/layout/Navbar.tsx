@@ -23,7 +23,7 @@ const Navbar = () => {
 		<motion.nav
 			initial={{ y: -100 }}
 			animate={{ y: 0 }}
-			className='fixed w-full z-50 bg-white/70 backdrop-blur-lg shadow-sm'>
+			className='fixed w-full z-50 bg-primary text-white shadow-sm'>
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<div className='flex justify-between items-center h-16'>
 					<Link to='/' className='flex items-center space-x-2'>
@@ -32,7 +32,7 @@ const Navbar = () => {
 							alt='Logo'
 							className='h-8 w-8'
 						/>
-						<span className='text-xl font-bold text-primary'>Weavolution</span>
+						<span className='text-xl font-bold text-white'>Weavolution</span>
 					</Link>
 
 					{/* Desktop Navigation */}
@@ -43,14 +43,14 @@ const Navbar = () => {
 								to={item.path}
 								className={`relative px-3 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-primary"
-										: "text-gray-700 hover:text-primary"
+										? "text-secondary"
+										: "text-white hover:text-secondary"
 								}`}>
 								{item.name}
 								{location.pathname === item.path && (
 									<motion.div
 										layoutId='navbar-indicator'
-										className='absolute bottom-0 left-0 right-0 h-0.5 bg-primary'
+										className='absolute bottom-0 left-0 right-0 h-0.5 bg-secondary'
 									/>
 								)}
 							</Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
 					<div className='md:hidden'>
 						<button
 							onClick={() => setIsOpen(!isOpen)}
-							className='p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors'>
+							className='p-2 rounded-md text-white hover:bg-secondary transition-colors'>
 							{isOpen ? (
 								<X className='h-6 w-6' />
 							) : (
@@ -77,7 +77,7 @@ const Navbar = () => {
 						initial={{ opacity: 0, height: 0 }}
 						animate={{ opacity: 1, height: "auto" }}
 						exit={{ opacity: 0, height: 0 }}
-						className='md:hidden bg-white/90 backdrop-blur-md rounded-lg shadow-lg mt-2 py-4'>
+						className='md:hidden bg-primary rounded-lg shadow-lg mt-2 py-4'>
 						{navItems.map((item) => (
 							<Link
 								key={item.name}
@@ -85,8 +85,8 @@ const Navbar = () => {
 								onClick={() => setIsOpen(false)}
 								className={`block px-4 py-2 text-sm font-medium transition-colors ${
 									location.pathname === item.path
-										? "text-primary bg-primary/10"
-										: "text-gray-700 hover:text-primary hover:bg-primary/10"
+										? "text-secondary bg-primary/10"
+										: "text-white hover:text-secondary hover:bg-primary/10"
 								}`}>
 								{item.name}
 							</Link>

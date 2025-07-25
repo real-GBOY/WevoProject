@@ -7,7 +7,7 @@ import { ArrowRight, Heart } from "lucide-react";
 
 const CallToAction = () => {
 	return (
-		<section className='py-20 bg-gradient-to-b from-primary-100 via-primary-600 to-primary-800 relative overflow-hidden'>
+		<section className='py-20 bg-gradient-to-b from-primary-100 via-primary-200 via-primary-600  to-primary relative overflow-hidden'>
 			{/* Background Pattern */}
 			<div className='absolute inset-0 opacity-10'>
 				<svg
@@ -41,11 +41,11 @@ const CallToAction = () => {
 					<motion.div
 						whileHover={{ scale: 1.1 }}
 						transition={{ type: "spring", stiffness: 400, damping: 10 }}
-						className='hidden md:inline-flex items-center justify-center w-16 h-16 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full mb-6 transition-colors duration-300'>
-						<Heart className='h-8 w-8 text-white' />
+						className='hidden md:inline-flex items-center justify-center w-16 h-16 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full mb-6 transition-colors duration-300 outline outline-2 outline-primary-700'>
+						<Heart className='h-8 w-8 text-primary-700' />
 					</motion.div>
 
-					<h2 className='text-3xl md:text-5xl font-bold text-white mb-6 leading-tight'>
+					<h2 className='text-3xl md:text-5xl font-bold  text-primary-700 mb-6 leading-tight'>
 						Ready to Join the
 						<span className='block text-primary-800'>
 							Sustainable Revolution?
@@ -62,7 +62,7 @@ const CallToAction = () => {
 						<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
 							<Link
 								to='/partner'
-								className='group bg-white text-primary-700 hover:bg-emerald-50 px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all shadow-lg'>
+								className='group bg-white text-primary-700 hover:bg-primary-50 px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all shadow-lg'>
 								<span>Become a Partner</span>
 								<ArrowRight className='h-5 w-5 group-hover:translate-x-1 transition-transform' />
 							</Link>

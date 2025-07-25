@@ -114,7 +114,7 @@ const Impact = () => {
 	return (
 		<section
 			id='impact'
-			className='py-20 bg-gradient-to-b from-emerald-50 to-white'>
+			className='py-20 bg-gradient-to-b from-primary-50 to-white'>
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<motion.div
 					className='text-center mb-16'
@@ -126,7 +126,7 @@ const Impact = () => {
 					<h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-800 mb-6'>
 						Our <span className='text-primary'>Impact</span>
 					</h2>
-					<p className='text-lg text-emerald-700 max-w-3xl mx-auto'>
+					<p className='text-lg text-gray-700 max-w-3xl mx-auto'>
 						Measuring our contribution to a sustainable future through concrete
 						actions and measurable results in the fight against textile waste.
 					</p>
@@ -136,7 +136,7 @@ const Impact = () => {
 					{impactStats.map((stat, index) => (
 						<motion.div
 							key={stat.label}
-							className='text-center p-8 bg-white rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border border-emerald-100'
+							className='text-center p-8 bg-white rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border border-primary-100'
 							variants={statCardVariants}
 							initial='hidden'
 							whileInView='visible'
@@ -146,10 +146,10 @@ const Impact = () => {
 								className={`${stat.bgColor} p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center`}>
 								<stat.icon className={`w-8 h-8 ${stat.color}`} />
 							</div>
-							<div className='text-3xl lg:text-4xl font-bold text-emerald-800 mb-2'>
+							<div className='text-3xl lg:text-4xl font-bold text-primary mb-2'>
 								{stat.value}
 							</div>
-							<div className='text-emerald-600 font-medium'>{stat.label}</div>
+							<div className='text-primary-600 font-medium'>{stat.label}</div>
 						</motion.div>
 					))}
 				</div>
@@ -169,20 +169,20 @@ const Impact = () => {
 							</h3>
 							<div className='space-y-4'>
 								<div className='flex items-center space-x-3'>
-									<div className='w-2 h-2 bg-emerald-200 rounded-full'></div>
+									<div className='w-2 h-2 bg-primary rounded-full'></div>
 									<span className='text-lg'>
 										Nearly 3 million tons of textile waste generated annually in
 										Egypt
 									</span>
 								</div>
 								<div className='flex items-center space-x-3'>
-									<div className='w-2 h-2 bg-emerald-200 rounded-full'></div>
+									<div className='w-2 h-2 bg-primary rounded-full'></div>
 									<span className='text-lg'>
 										95% currently ends up polluting the environment
 									</span>
 								</div>
 								<div className='flex items-center space-x-3'>
-									<div className='w-2 h-2 bg-emerald-200 rounded-full'></div>
+									<div className='w-2 h-2 bg-primary rounded-full'></div>
 									<span className='text-lg'>
 										Our solution can process and recycle up to 80% of this waste
 									</span>

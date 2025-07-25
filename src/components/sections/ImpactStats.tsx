@@ -48,10 +48,10 @@ const ImpactStats = () => {
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
 					className='text-center mb-16'>
-					<h2 className='text-3xl md:text-4xl font-bold text-emerald-900 mb-4'>
+					<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 						Our Environmental Impact
 					</h2>
-					<p className='text-xl text-emerald-800 max-w-3xl mx-auto'>
+					<p className='text-xl text-gray-700 max-w-3xl mx-auto'>
 						Every piece of textile waste we recycle creates a positive ripple
 						effect on our environment and communities.
 					</p>
@@ -81,15 +81,15 @@ const ImpactStats = () => {
 										type: "spring",
 										stiffness: 100,
 									}}
-									className='text-4xl md:text-5xl font-bold text-emerald-900 mb-2'>
+									className='text-4xl md:text-5xl font-bold text-primary mb-2'>
 									{stat.number}
 								</motion.div>
 
-								<h3 className='text-xl font-semibold text-emerald-800 mb-2'>
+								<h3 className='text-xl font-semibold text-gray-800 mb-2'>
 									{stat.label}
 								</h3>
 
-								<p className='text-emerald-700 text-sm leading-relaxed'>
+								<p className='text-gray-700 text-sm leading-relaxed'>
 									{stat.description}
 								</p>
 							</div>
@@ -102,8 +102,8 @@ const ImpactStats = () => {
 					initial={{ opacity: 0, y: 30 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
-					className='mt-16 bg-gradient-to-r from-emerald-500/10 via-emerald-400/10 to-emerald-300/10 rounded-2xl p-8 text-center backdrop-blur-sm'>
-					<h3 className='text-2xl font-bold text-emerald-900 mb-4'>
+					className='mt-16 bg-gradient-to-r from-primary-500/10 via-primary-400/10 to-primary-300/10 rounded-2xl p-8 text-center backdrop-blur-sm'>
+					<h3 className='text-2xl font-bold text-primary mb-4'>
 						Together, We're Making a Difference
 					</h3>
 					<p className='text-whi-800 max-w-2xl mx-auto'>
