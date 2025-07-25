@@ -15,7 +15,6 @@ import ProductDetail from "./pages/ProductDetail";
 import Impact from "./pages/Impact";
 import Partner from "./pages/Partner";
 import About from "./pages/About";
-import Campaigns from "./pages/Campaigns";
 import Contact from "./pages/Contact";
 
 // ScrollToTop component that scrolls to top on route change
@@ -43,7 +42,6 @@ function App() {
 						<Route path='/impact' element={<Impact />} />
 						<Route path='/partner' element={<Partner />} />
 						<Route path='/about' element={<About />} />
-						<Route path='/campaigns' element={<Campaigns />} />
 						<Route path='/contact' element={<Contact />} />
 					</Routes>
 				</main>

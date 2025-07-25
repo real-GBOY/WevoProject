@@ -15,7 +15,6 @@ const Navbar = () => {
 		{ name: "Impact", path: "/impact" },
 		{ name: "Partner", path: "/partner" },
 		{ name: "About", path: "/about" },
-		{ name: "Campaigns", path: "/campaigns" },
 		{ name: "Contact", path: "/contact" },
 	];
 
