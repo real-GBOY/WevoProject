@@ -30,7 +30,7 @@ const Hero = () => {
 					initial={{ opacity: 0, y: 30 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}>
-					<h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight'>
+					<h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-relaxed'>
 						Transforming Textile Waste
 						<span className='text-secondary block'>Into Opportunity</span>
 					</h1>

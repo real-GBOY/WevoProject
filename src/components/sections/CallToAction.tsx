@@ -45,7 +45,7 @@ const CallToAction = () => {
 						<Heart className='h-8 w-8 text-primary-700' />
 					</motion.div>
 
-					<h2 className='text-3xl md:text-5xl font-bold  text-white mb-6 leading-tight'>
+					<h2 className='text-3xl md:text-5xl font-bold  text-white mb-6 leading-loose text-center'>
 						Ready to Join the
 						<span className='block text-secondary'>
 							Sustainable Revolution?
