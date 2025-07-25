@@ -49,6 +49,15 @@ export default {
 					900: "#064e3b",
 					950: "#022c22",
 				},
+				"custom-orange": {
+					DEFAULT: "#f78419",
+				},
+			},
+			fontFamily: {
+				sans: ["Poppins", "sans-serif"],
+			},
+			fontWeight: {
+				medium: 500,
 			},
 		},
 	},

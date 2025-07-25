@@ -98,14 +98,14 @@ const Contact = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-primary to-primary text-white py-20'>
+			<section className='bg-primary text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						className='text-center'>
-						<MessageCircle className='h-16 w-16 mx-auto mb-6 text-emerald-200' />
-						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
+						<MessageCircle className='h-16 w-16 mx-auto mb-6 text-secondary' />
+						<h1 className='text-4xl md:text-6xl font-bold mb-6 text-secondary'>
 							Get in Touch
 						</h1>
 						<p className='text-xl md:text-2xl text-emerald-100 max-w-3xl mx-auto'>
@@ -113,49 +113,6 @@ const Contact = () => {
 							you and explore how we can work together.
 						</p>
 					</motion.div>
-				</div>
-			</section>
-
-			{/* Contact Information */}
-			<section className='py-20 bg-white'>
-				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-					<motion.div
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-							Contact Information
-						</h2>
-						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-							Multiple ways to reach us. Choose the method that works best for
-							you.
-						</p>
-					</motion.div>
-
-					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
-						{contactInfo.map((info, index) => (
-							<motion.div
-								key={index}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: index * 0.1 }}
-								className='text-center group'>
-								<div
-									className={`inline-flex items-center justify-center w-16 h-16 ${info.bgColor} rounded-full mb-4 group-hover:scale-110 transition-transform duration-300`}>
-									<info.icon className={`h-8 w-8 ${info.color}`} />
-								</div>
-								<h3 className='text-xl font-semibold text-gray-900 mb-2'>
-									{info.title}
-								</h3>
-								<p className='text-lg font-medium text-gray-800 mb-2'>
-									{info.details}
-								</p>
-								<p className='text-gray-600 text-sm'>{info.description}</p>
-							</motion.div>
-						))}
-					</div>
 				</div>
 			</section>
 
@@ -189,7 +146,7 @@ const Contact = () => {
 									</label>
 									<input
 										type='text'
-										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 										placeholder='Your first name'
 									/>
 								</div>
@@ -199,7 +156,7 @@ const Contact = () => {
 									</label>
 									<input
 										type='text'
-										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 										placeholder='Your last name'
 									/>
 								</div>
@@ -212,7 +169,7 @@ const Contact = () => {
 									</label>
 									<input
 										type='email'
-										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 										placeholder='your@email.com'
 									/>
 								</div>
@@ -222,7 +179,7 @@ const Contact = () => {
 									</label>
 									<input
 										type='tel'
-										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+										className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 										placeholder='01026597474'
 									/>
 								</div>
@@ -232,7 +189,7 @@ const Contact = () => {
 								<label className='block text-sm font-medium text-gray-700 mb-2'>
 									Subject *
 								</label>
-								<select className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'>
+								<select className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'>
 									<option value=''>Select a subject</option>
 									<option value='general'>General Inquiry</option>
 									<option value='partnership'>Partnership Opportunity</option>
@@ -249,7 +206,7 @@ const Contact = () => {
 								</label>
 								<input
 									type='text'
-									className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+									className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 									placeholder='Your organization name'
 								/>
 							</div>
@@ -260,7 +217,7 @@ const Contact = () => {
 								</label>
 								<textarea
 									rows={6}
-									className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-purple-500 focus:border-transparent transition-colors'
+									className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
 									placeholder='Tell us about your inquiry, project, or how we can help you...'></textarea>
 							</div>
 
@@ -279,7 +236,7 @@ const Contact = () => {
 							<div className='text-center'>
 								<button
 									type='submit'
-									className='bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors inline-flex items-center space-x-2'>
+									className='bg-primary hover:bg-primary-500 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors inline-flex items-center space-x-2'>
 									<Send className='h-5 w-5' />
 									<span>Send Message</span>
 								</button>

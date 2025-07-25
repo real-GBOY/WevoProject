@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 import { Users, Target, Eye, Heart, Award, Globe } from "lucide-react";
 
 const About = () => {
-	
-
 	const values = [
 		{
 			icon: Globe,
@@ -43,10 +41,15 @@ const About = () => {
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						className='text-center'>
-						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
+						<img
+							src='https://i.postimg.cc/QxrqLdfB/Icon.png'
+							alt='Logo'
+							className='h-16 w-16 mx-auto mb-6'
+						/>
+						<h1 className='text-4xl md:text-6xl font-bold mb-6 text-secondary'>
 							About Weavolution
 						</h1>
-						<p className='text-xl md:text-2xl text-green-100 max-w-3xl mx-auto'>
+						<p className='text-xl md:text-2xl text-white max-w-3xl mx-auto'>
 							An Enactus project transforming Egypt's textile waste crisis into
 							sustainable opportunities for communities and the environment.
 						</p>
@@ -138,10 +141,10 @@ const About = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							className='bg-white rounded-2xl p-8 shadow-lg'>
-							<h3 className='text-2xl font-bold text-gray-900 mb-4'>
+							<h3 className='text-2xl font-bold text-secondary mb-4'>
 								The Problem We Discovered
 							</h3>
-							<p className='text-gray-600 leading-relaxed mb-6'>
+							<p className='text-gray-900 leading-relaxed mb-6'>
 								As Enactus students, we were shocked to learn that Egypt
 								generates nearly 3 million tons of textile waste annually, with
 								most of it ending up in landfills or polluting our environment.
@@ -150,7 +153,7 @@ const About = () => {
 							</p>
 							<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
 								<div className='text-center'>
-									<div className='text-3xl font-bold text-red-600 mb-2'>
+									<div className='text-3xl font-bold text-custom-orange mb-2'>
 										3M+
 									</div>
 									<div className='text-gray-600'>
@@ -158,13 +161,13 @@ const About = () => {
 									</div>
 								</div>
 								<div className='text-center'>
-									<div className='text-3xl font-bold text-red-600 mb-2'>
+									<div className='text-3xl font-bold text-custom-orange mb-2'>
 										85%
 									</div>
 									<div className='text-gray-600'>Ends up in landfills</div>
 								</div>
 								<div className='text-center'>
-									<div className='text-3xl font-bold text-red-600 mb-2'>
+									<div className='text-3xl font-bold text-custom-orange mb-2'>
 										200
 									</div>
 									<div className='text-gray-600'>Years to decompose</div>
@@ -177,10 +180,10 @@ const About = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							className='bg-white rounded-2xl p-8 shadow-lg'>
-							<h3 className='text-2xl font-bold text-gray-900 mb-4'>
+							<h3 className='text-2xl font-bold text-secondary mb-4'>
 								Our Innovative Solution
 							</h3>
-							<p className='text-gray-600 leading-relaxed mb-6'>
+							<p className='text-gray-900 leading-relaxed mb-6'>
 								We developed a comprehensive recycling process that transforms
 								textile waste into valuable products: 3D printing filament,
 								yarn, MDF boards, and furniture. Our approach not only addresses
@@ -196,8 +199,8 @@ const About = () => {
 								].map((product, index) => (
 									<div
 										key={index}
-										className='bg-green-50 rounded-lg p-4 text-center'>
-										<div className='text-green-600 font-semibold'>
+										className='bg-emerald-50 rounded-lg p-4 text-center'>
+										<div className='text-secondary font-semibold'>
 											{product}
 										</div>
 									</div>
@@ -261,7 +264,7 @@ const About = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}>
-						<h2 className='text-3xl md:text-4xl font-bold mb-6'>
+						<h2 className='text-3xl md:text-4xl font-bold mb-6 '>
 							Join Our Mission
 						</h2>
 						<p className='text-xl text-green-100 mb-8 max-w-3xl mx-auto'>

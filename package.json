@@ -11,6 +11,7 @@
 		"start": "vite preview --port 3000 --host"
 	},
 	"dependencies": {
+		"@fontsource/poppins": "^5.2.6",
 		"@heroicons/react": "^2.2.0",
 		"framer-motion": "^10.16.16",
 		"lucide-react": "^0.344.0",

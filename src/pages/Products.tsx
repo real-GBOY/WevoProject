@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Recycle, Award, Truck } from "lucide-react";
+import { ArrowRight, Recycle, Award, Truck, Globe } from "lucide-react";
 
 const Products = () => {
 	const products = [
@@ -92,7 +92,8 @@ const Products = () => {
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						className='text-center'>
-						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
+						<Recycle className='h-16 w-16 mx-auto mb-6 text-secondary' />
+						<h1 className='text-4xl md:text-6xl font-bold mb-6 text-secondary'>
 							Sustainable Products
 						</h1>
 						<p className='text-emerald-purple-500 text-xl md:text-2xl max-w-3xl mx-auto '>
@@ -201,9 +202,7 @@ const Products = () => {
 										</p>
 										<ul className='space-y-1'>
 											{product.features.slice(0, 2).map((feature, idx) => (
-												<li
-													key={idx}
-													className='text-sm flex items-center'>
+												<li key={idx} className='text-sm flex items-center'>
 													<div className='w-1.5 h-1.5 bg-secondary rounded-full mr-2' />
 													{feature}
 												</li>

@@ -32,7 +32,7 @@ const Partner = () => {
 			icon: ShoppingBag,
 			title: "Retail Partners",
 			description:
-				"Stock our sustainable products and attract eco-conscious customers.",
+				"Stock our sustainable products and attract more environmentally and socially conscious customers.",
 			benefits: [
 				"Exclusive product distribution rights",
 				"Marketing and promotional support",
@@ -161,14 +161,14 @@ const Partner = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='py-20 bg-gradient-to-r from-primary to-primary text-white'>
+			<section className='py-20 bg-primary text-white'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						className='text-center'>
-						<Handshake className='h-16 w-16 mx-auto mb-6 text-green-200' />
-						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
+						<Handshake className='h-16 w-16 mx-auto mb-6 text-secondary' />
+						<h1 className='text-4xl md:text-6xl font-bold mb-6 text-secondary'>
 							Partner With Us
 						</h1>
 						<p className='text-xl md:text-2xl text-green-100 max-w-3xl mx-auto'>
@@ -187,7 +187,7 @@ const Partner = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Why Partner With Weavolution?
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>
@@ -244,7 +244,7 @@ const Partner = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'>
-						<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
+						<h2 className='text-3xl md:text-4xl font-bold text-primary mb-4'>
 							Partnership Opportunities
 						</h2>
 						<p className='text-xl text-gray-600 max-w-3xl mx-auto'>

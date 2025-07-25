@@ -26,7 +26,9 @@ const Footer = () => {
 								alt='Logo'
 								className='h-8 w-8'
 							/>
-							<span className='text-xl font-bold'>Weavolution</span>
+							<span className='text-xl font-bold text-secondary uppercase'>
+								Weavolution
+							</span>
 						</div>
 						<p className='text-gray-400 text-sm leading-relaxed'>
 							Transforming Egypt's textile waste into sustainable products for a

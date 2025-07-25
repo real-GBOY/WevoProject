@@ -99,13 +99,14 @@ const Impact = () => {
 	return (
 		<div className='pt-16'>
 			{/* Hero Section */}
-			<section className='bg-gradient-to-r from-primary-600 to-primary-700 text-white py-20'>
+			<section className='bg-primary text-white py-20'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
 						animate={{ opacity: 1, y: 0 }}
 						className='text-center'>
-						<h1 className='text-4xl md:text-6xl font-bold mb-6'>
+						<Globe className='h-16 w-16 mx-auto mb-6 text-secondary' />
+						<h1 className='text-4xl md:text-6xl font-bold mb-6 text-secondary'>
 							Our Environmental Impact
 						</h1>
 						<p className='text-xl md:text-2xl text-green-100 max-w-3xl mx-auto'>
@@ -227,7 +228,7 @@ const Impact = () => {
 			</section>
 
 			{/* Journey Timeline */}
-			<section className='py-20 bg-white'>
+			<section className='py-20 bg-white mb-10'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -282,38 +283,6 @@ const Impact = () => {
 							))}
 						</div>
 					</div>
-				</div>
-			</section>
-
-			{/* Call to Action */}
-			<section className='py-20 bg-gradient-to-r from-primary-600 to-primary-700 text-white'>
-				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
-					<motion.div
-						initial={{ opacity: 0, y: 30 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}>
-						<h2 className='text-3xl md:text-4xl font-bold mb-6'>
-							Be Part of the Solution
-						</h2>
-						<p className='text-xl text-green-100 mb-8 max-w-3xl mx-auto'>
-							Join us in creating a more sustainable future for Egypt. Every
-							partnership, every purchase, every action counts.
-						</p>
-						<div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
-							<motion.a
-								href='/partner'
-								whileHover={{ scale: 1.05 }}
-								className='bg-white text-primary-700 hover:bg-primary-50 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
-								Partner With Us
-							</motion.a>
-							<motion.a
-								href='/contact'
-								whileHover={{ scale: 1.05 }}
-								className='border-2 border-white text-white hover:bg-white hover:text-primary-700 px-8 py-3 rounded-full font-semibold text-lg transition-colors'>
-								Learn More
-							</motion.a>
-						</div>
-					</motion.div>
 				</div>
 			</section>
 		</div>

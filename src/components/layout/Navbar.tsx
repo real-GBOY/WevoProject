@@ -32,7 +32,9 @@ const Navbar = () => {
 							alt='Logo'
 							className='h-8 w-8'
 						/>
-						<span className='text-xl font-bold text-white'>Weavolution</span>
+						<span className='text-xl font-bold text-secondary uppercase'>
+							Weavolution
+						</span>
 					</Link>
 
 					{/* Desktop Navigation */}

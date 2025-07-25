@@ -7,7 +7,7 @@ import { ArrowRight, Heart } from "lucide-react";
 
 const CallToAction = () => {
 	return (
-		<section className='py-20 bg-gradient-to-b from-primary-100 via-primary-200 via-primary-600  to-primary relative overflow-hidden'>
+		<section className='py-20 bg-gradient-to-b from-primary-100  via-primary-600  to-primary relative overflow-hidden'>
 			{/* Background Pattern */}
 			<div className='absolute inset-0 opacity-10'>
 				<svg
@@ -45,9 +45,9 @@ const CallToAction = () => {
 						<Heart className='h-8 w-8 text-primary-700' />
 					</motion.div>
 
-					<h2 className='text-3xl md:text-5xl font-bold  text-primary-700 mb-6 leading-tight'>
+					<h2 className='text-3xl md:text-5xl font-bold  text-white mb-6 leading-tight'>
 						Ready to Join the
-						<span className='block text-primary-800'>
+						<span className='block text-secondary'>
 							Sustainable Revolution?
 						</span>
 					</h2>
