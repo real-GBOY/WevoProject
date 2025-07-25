@@ -35,10 +35,19 @@ const Footer = () => {
 							greener future.
 						</p>
 						<div className='flex space-x-4'>
-							<Facebook className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
-							<Twitter className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
-							<Instagram className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
-							<Linkedin className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
+							<a
+								href='https://www.facebook.com/groups/921286926616635/user/61578153764822/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<Facebook className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
+							</a>
+
+							<a
+								href='https://www.instagram.com/weavolution4?igsh=Y3dsdTY5MmtxMjJn&utm_source=qr&fbclid=IwY2xjawLwsM9leHRuA2FlbQIxMABicmlkETE1VXZyd1dpUlIzMHNhV1pjAR6YPBvwF_SPUN4VoIwUCOzKeiRCA81Uy6CkBSdmVPmAG8P0hQg6Gdg-kIQe4g_aem_w6I5fniPZ4IogxuESUSacQ'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<Instagram className='h-5 w-5 text-gray-400 hover:text-primary-500 cursor-pointer transition-colors' />
+							</a>
 						</div>
 					</div>
 
