@@ -142,7 +142,7 @@ const About = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							className='bg-white rounded-2xl p-8 shadow-lg'>
-							<h3 className='text-2xl font-bold text-secondary mb-4'>
+							<h3 className='text-2xl font-bold text-custom-orange mb-4'>
 								The Problem We Discovered
 							</h3>
 							<p className='text-gray-900 leading-relaxed mb-6'>
