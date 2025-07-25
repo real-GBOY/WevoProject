@@ -12,7 +12,7 @@ const Products = () => {
 			title: "3D Printing Filament – Impact Overview",
 			description:
 				"High-quality filament made from recycled textile fibers, perfect for sustainable 3D printing projects and prototyping.",
-			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			image: "https://i.postimg.cc/XJj6pLvF/FP-F-3-D-Fliament-1.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Made from 100% recycled textiles",
@@ -27,7 +27,7 @@ const Products = () => {
 			title: "Recycled Yarn – Impact Overview",
 			description:
 				"Soft, durable yarn crafted from upcycled textiles, ideal for sustainable fashion and textile manufacturing.",
-			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			image: "https://i.postimg.cc/Gh8w8HbM/FP-F-Yarn-1.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Premium quality fibers",
@@ -42,7 +42,7 @@ const Products = () => {
 			title: "Recycled MDF Boards – Impact Overview",
 			description:
 				"Eco-friendly medium-density fiberboard made from compressed textile waste, perfect for furniture and construction.",
-			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			image: "https://i.postimg.cc/TPYXPQ1b/2-MDF-1-copy.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Superior strength and stability",
@@ -177,7 +177,7 @@ const Products = () => {
 								viewport={{ once: true }}
 								transition={{ delay: index * 0.1 }}
 								className='bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group'>
-								<div className='relative h-48 overflow-hidden'>
+								<div className='relative aspect-square w-full overflow-hidden'>
 									<img
 										src={product.image}
 										alt={product.title}
