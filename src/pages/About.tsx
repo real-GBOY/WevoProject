@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Users, Target, Eye, Heart, Award, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const About = () => {
 	const values = [
@@ -192,17 +193,19 @@ const About = () => {
 							</p>
 							<div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
 								{[
-									"3D Filament",
-									"Recycled Yarn",
-									"MDF Boards",
-									"Eco Furniture",
+									{ name: "3D Filament", id: "3d-filament" },
+									{ name: "Recycled Yarn", id: "recycled-yarn" },
+									{ name: "MDF Boards", id: "mdf-boards" },
+									{ name: "Eco Furniture", id: "eco-furniture" },
 								].map((product, index) => (
 									<div
 										key={index}
 										className='bg-emerald-50 rounded-lg p-4 text-center'>
-										<div className='text-secondary font-semibold'>
-											{product}
-										</div>
+										<Link
+											to={`/products/${product.id}`}
+											className='text-secondary font-semibold hover:underline'>
+											{product.name}
+										</Link>
 									</div>
 								))}
 							</div>
