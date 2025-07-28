@@ -36,7 +36,7 @@ const ProductShowcase = () => {
 			title: "Eco Furniture",
 			description:
 				"Beautiful, sustainable furniture pieces created from our recycled materials.",
-			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			image: "https://i.postimg.cc/CxW8zr8C/Furn-So5on-hh.jpg",
 			color: "from-emerald-purple-500 to-emerald-purple-600",
 		},
 	];

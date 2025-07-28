@@ -13,8 +13,7 @@ const ProductDetail = () => {
 			title: " 3D Printing Filament – Impact Overview",
 			description:
 				"Our filament is made by transforming textile waste into high-quality 3D printing spools. Compatible with FDM printers (PLA, PET, ABS), our filament offers strong, glossy, and flexible material — reducing both waste and plastic pollution.",
-			image:
-				"https://i.postimg.cc/XJj6pLvF/FP-F-3-D-Fliament-1.jpg",
+			image: "https://i.postimg.cc/XJj6pLvF/FP-F-3-D-Fliament-1.jpg",
 			price: "Contact for pricing",
 			features: [
 				"High flexibility",
@@ -46,8 +45,7 @@ const ProductDetail = () => {
 			title: " Recycled Yarn – Impact Overview",
 			description:
 				"Our yarn is produced by upcycling discarded textiles into high-quality yarn rolls used by artisans, sewing businesses, and knitting groups — promoting sustainability while supporting local economies.",
-			image:
-				"https://i.postimg.cc/Gh8w8HbM/FP-F-Yarn-1.jpg",
+			image: "https://i.postimg.cc/Gh8w8HbM/FP-F-Yarn-1.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Affordable and sustainable",
@@ -89,8 +87,7 @@ const ProductDetail = () => {
 			title: " Recycled MDF Boards – Impact Overview",
 			description:
 				"Our MDF boards are created by converting textile waste into durable, high-quality Medium Density Fiberboard (MDF). These boards are perfect for furniture and construction, offering a sustainable alternative to traditional wood-based products.",
-			image:
-				"https://i.postimg.cc/TPYXPQ1b/2-MDF-1-copy.jpg",
+			image: "https://i.postimg.cc/TPYXPQ1b/2-MDF-1-copy.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Strong, reliable structural performance",
@@ -135,8 +132,7 @@ const ProductDetail = () => {
 			title: "Eco-Friendly Furniture – Impact Overview",
 			description:
 				"Our eco furniture is made by transforming textile waste into durable and stylish furniture items like chairs, tables, and shelves. This sustainable innovation supports circular design, reduces landfill waste, and empowers local artisans.",
-			image:
-				"https://images.pexels.com/photos/6480214/pexels-photo-6480214.jpeg?auto=compress&cs=tinysrgb&w=1200",
+			image: "https://i.postimg.cc/CxW8zr8C/Furn-So5on-hh.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Moisture-resistant and long-lasting",

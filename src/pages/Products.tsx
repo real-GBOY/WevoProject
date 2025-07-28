@@ -57,7 +57,7 @@ const Products = () => {
 			title: "Eco-Friendly Furniture – Impact Overview",
 			description:
 				"Beautiful, sustainable furniture pieces created from our recycled materials, combining style with environmental responsibility.",
-			image: "https://i.postimg.cc/vHtTgfRc/com-wallpaper.jpg",
+			image: "https://i.postimg.cc/CxW8zr8C/Furn-So5on-hh.jpg",
 			price: "Contact for pricing",
 			features: [
 				"Custom designs available",
